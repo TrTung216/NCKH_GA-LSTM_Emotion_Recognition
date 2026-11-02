@@ -1,0 +1,8 @@
+﻿label,train,validation,test,total
+Anger,391,49,40,480
+Disgust,1071,135,132,1338
+Enjoyment,1558,214,193,1965
+Fear,318,31,46,395
+Other,1021,141,129,1291
+Sadness,947,86,116,1149
+Surprise,242,30,37,309

@@ -1,0 +1,15 @@
+# Local dependencies and Python caches
+.experiment_deps/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Machine-specific editor settings
+.vscode/
+# Local secrets
+.env
+.env.*
+!.env.example
+# Redundant archive; expanded results are tracked
+/results.rar

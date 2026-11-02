@@ -1,0 +1,694 @@
+﻿sample_id,text,label,lstm_seed42,lstm_seed123,lstm_seed2026,lstm_correct_seeds,xlstm_seed42,xlstm_seed123,xlstm_seed2026,xlstm_correct_seeds
+test_00000,người ta có bạn bè nhìn vui thật,Sadness,Enjoyment,Other,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00001,cho nghỉ viêc mói đúng sao goi là kỷ luật,Surprise,Other,Other,Other,0,Sadness,Disgust,Other,0
+test_00002,kinh vãi 😡,Disgust,Fear,Disgust,Fear,1,Disgust,Disgust,Disgust,3
+test_00003,nhà thì không xa lắm nhưng chưa bao giờ đi vì sợ bị đè bẹp luôn người =))))),Fear,Fear,Fear,Fear,3,Fear,Sadness,Fear,2
+test_00004,bố không thích nộp đấy mày thích ý kiến không,Anger,Disgust,Disgust,Other,0,Disgust,Anger,Disgust,1
+test_00005,bắt cóc bỏ đĩa . quanh đi quẩn lại chỉ khổ dân đen thôi !,Other,Disgust,Sadness,Disgust,0,Sadness,Sadness,Sadness,0
+test_00006,per khi nào bạn có bằng xe ôtô thì bạn mới hiểu . sai thì đã có ca,Other,Other,Other,Other,3,Other,Other,Other,3
+test_00007,một hành động đẹp đầy tính nhân văn ☺️☺️,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00008,"anh nhỏ nhẹ xin 100k rồi trước khi đi còn chào người đẹp , đi cẩn thận """,Other,Sadness,Enjoyment,Enjoyment,0,Sadness,Sadness,Enjoyment,0
+test_00009,per trình mày vẫn còn thấp chán =)),Other,Anger,Other,Enjoyment,1,Other,Other,Enjoyment,2
+test_00010,mấy ai được như vậy ??,Other,Surprise,Other,Other,2,Surprise,Other,Surprise,1
+test_00011,có ai như tao vô đọc bình luận 🤣 tao cười tao xĩu,Enjoyment,Enjoyment,Other,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00012,ủa má . 2 đứa yêu nhau vô duyên và sân si giống nhau vậy ?,Disgust,Surprise,Surprise,Surprise,0,Surprise,Enjoyment,Disgust,1
+test_00013,góp vui cho chủ thớt 😂😂,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00014,sống 17 năm chưa crush ai bao giờ,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00015,ổng quay thiệt mà sao chửi ổng thế . không quay sao máy bạn xem được đó :)),Other,Surprise,Surprise,Surprise,0,Surprise,Surprise,Disgust,0
+test_00016,thần kinh cái đầu mày …,Disgust,Other,Disgust,Disgust,2,Disgust,Disgust,Disgust,3
+test_00017,nghe ngọt thế :((,Enjoyment,Other,Enjoyment,Other,1,Sadness,Surprise,Sadness,0
+test_00018,sao lại cứ phải thế nhỉ,Other,Surprise,Surprise,Surprise,0,Surprise,Surprise,Surprise,0
+test_00019,mệt vãi .. mà cừời cũng vãi ??????,Enjoyment,Disgust,Disgust,Disgust,0,Enjoyment,Disgust,Enjoyment,2
+test_00020,kinh khủng thật :((,Fear,Fear,Surprise,Fear,2,Fear,Fear,Fear,3
+test_00021,hậu duệ mặt trời đấy chứ đùa đâu nhá 😗😗,Other,Other,Disgust,Other,2,Other,Other,Other,3
+test_00022,tôi ở phú yên và anh này nói rất chuẩn < 3,Enjoyment,Enjoyment,Fear,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00023,đứa nào bị táo bón thâm niên cứ ra cầu này mà nhảy đảm bảo hiệu quả ngay lần đầu trải nghiệm 🤣🤣🤣,Enjoyment,Disgust,Disgust,Fear,0,Disgust,Disgust,Disgust,0
+test_00024,trơi ơi sao lại cháy chứ,Surprise,Surprise,Enjoyment,Surprise,2,Surprise,Surprise,Surprise,3
+test_00025,có những người không có ý thức bỏ quần áo rách hoặc mặc rồi để vào tủ để đỡ phải đi vứt ...,Disgust,Disgust,Other,Disgust,2,Other,Disgust,Disgust,2
+test_00026,per khi ế nhưng vẫn phải giương mắt nhìn bọn nó ân ái,Sadness,Sadness,Other,Sadness,2,Other,Sadness,Surprise,1
+test_00027,per tiến cử bản thân nào,Other,Other,Other,Enjoyment,2,Other,Other,Enjoyment,2
+test_00028,vẫn chọn tech là ngân hàng đồng hành,Enjoyment,Enjoyment,Enjoyment,Other,2,Enjoyment,Other,Enjoyment,2
+test_00029,per dạo này ít tung tăng hơn xưa nên hơi trầm cảm dồi chăng 😳,Other,Other,Other,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,0
+test_00030,dume sao sao nó nói tiếng việt được vậy,Surprise,Surprise,Surprise,Surprise,3,Surprise,Surprise,Surprise,3
+test_00031,kêu gọi thì lói thế thôi chứ dân nó vẫn dùng apple như thường,Other,Disgust,Disgust,Disgust,0,Disgust,Disgust,Disgust,0
+test_00032,nhưng tao đéo có crush,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Disgust,2
+test_00033,"từ nay ho , thì phải kiếm chỗ nào nằm tạm",Other,Other,Disgust,Other,2,Other,Disgust,Other,2
+test_00034,tao đéo ngờ được đây là trường tao :)))),Surprise,Surprise,Sadness,Surprise,2,Surprise,Surprise,Surprise,3
+test_00035,yêu nghề thực sự,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Sadness,2
+test_00036,:))) ra thấy nó xấu chó thì lại về chặn số à,Other,Disgust,Disgust,Disgust,0,Disgust,Disgust,Disgust,0
+test_00037,này là xạo chó chứ nguyên giá gì . kinh doanh là phải lừa lọc ... lừa giỏi diễn đạt thì giàu,Disgust,Disgust,Disgust,Anger,2,Disgust,Disgust,Disgust,3
+test_00038,ý thức con ruồi là chủ yếu .. thì ngập rác là chuyện đương nhiên .,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Enjoyment,2
+test_00039,phim hay thật nhưng cái kết hơi khó hiểu :v chốt lại là đáng đồng tiền bát gạo :v,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00040,trời đụ thằng con trời đánh,Anger,Disgust,Disgust,Disgust,0,Disgust,Disgust,Disgust,0
+test_00041,"má , chơi dị ai chơi lại , mấy ba",Disgust,Disgust,Other,Fear,1,Disgust,Disgust,Disgust,3
+test_00042,bọn biến thái,Disgust,Disgust,Disgust,Anger,2,Disgust,Anger,Disgust,2
+test_00043,nào thức tỉnh đi các bạn ơi 😃,Other,Other,Other,Other,3,Enjoyment,Other,Enjoyment,1
+test_00044,chắc chắn bố của bạn này là một người vui tính chứ không phải khó tính . khiếu khôi hài bạn ấy ảnh hưởng từ bố .,Enjoyment,Enjoyment,Other,Enjoyment,2,Disgust,Enjoyment,Other,1
+test_00045,chất lượng âm thanh bản này hình như nghe hay hơn bản gốc hồi mấy năm trước nhiều < 3,Enjoyment,Enjoyment,Other,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00046,mặt chúng bạn kiểu lại đéo được trả tiền rồi 😞,Sadness,Disgust,Disgust,Sadness,1,Disgust,Other,Sadness,1
+test_00047,"mình chưa từng thấy phim nào ý nghĩa như phim này cả , nó dạy cho ta về nhiều mặt trong cuộc sống , khi vui , khi buồn",Enjoyment,Disgust,Enjoyment,Fear,1,Sadness,Enjoyment,Enjoyment,2
+test_00048,nhìn thôi cũng đau lòng :)),Sadness,Sadness,Enjoyment,Sadness,2,Sadness,Sadness,Enjoyment,2
+test_00049,"xem cái con cặc gì , tắt đi",Anger,Anger,Disgust,Anger,2,Anger,Disgust,Anger,2
+test_00050,sao có dầu ăn ở đây nhỉ ?,Surprise,Surprise,Surprise,Surprise,3,Surprise,Surprise,Surprise,3
+test_00051,"dưới nước không nhìn được , kiểu gì chả có đứa sờ mông sờ .... dcm súc vật :)",Anger,Disgust,Disgust,Disgust,0,Disgust,Disgust,Disgust,0
+test_00052,tao rất sợ mất đứa tỏ ra như thế,Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00053,per ơi .... anh muốn anh và nó sẽ bảo vệ đời em 😎,Enjoyment,Enjoyment,Other,Other,1,Enjoyment,Other,Other,1
+test_00054,tao cũng thế mà ba tao vứt hết mẹ rồi,Other,Sadness,Fear,Sadness,0,Sadness,Fear,Other,1
+test_00055,đến cái camera nó cũng hắt hủi mày :))) chớt đi chứ sống nàm gì nữa,Disgust,Disgust,Disgust,Enjoyment,2,Other,Anger,Enjoyment,0
+test_00056,hú hồn cái lồn còn nguyên :),Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00057,vẫn thắc mắc tại sao trước mình thi vào 10 lại dễ thế,Other,Enjoyment,Other,Enjoyment,1,Enjoyment,Other,Other,2
+test_00058,có vẻ người dân hơi mê tín quá 😂,Disgust,Other,Other,Enjoyment,0,Other,Other,Enjoyment,0
+test_00059,"mình trả hùa , mình vẫn đỗ nhắn tin",Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Sadness,2
+test_00060,tôi còn chẳng lấy ảnh lớp cho nữa,Sadness,Sadness,Sadness,Sadness,3,Other,Sadness,Sadness,2
+test_00061,per sáng mai kiểu gì cũng về tới nhà :)),Enjoyment,Enjoyment,Surprise,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00062,đợt trước con em tao đi học cũng bị con kia hăm đòi đánh . tao lên tận trường kêu nó ra bảo mày muốn đánh tao cho tụi mày đánh đó . học sinh mà bố láo,Anger,Anger,Anger,Anger,3,Disgust,Anger,Anger,2
+test_00063,tôi cũng muốn được cảm thấy như vậy ??,Sadness,Enjoyment,Sadness,Sadness,2,Sadness,Enjoyment,Enjoyment,1
+test_00064,xăm chữ trái và phải lên mu bàn tay ... hy vọng là mày vẫn biết phâ biệt mặt chữ :)),Enjoyment,Other,Disgust,Other,0,Other,Enjoyment,Enjoyment,2
+test_00065,sang năm quyêt định đi ngủ cho đỡ mỏi mắt,Other,Other,Sadness,Other,2,Sadness,Sadness,Other,1
+test_00066,khi nào vụ này kết thúc thì mình uống cf trung nguyên trở lại . sợ làm giàu cho cô per lắm .,Disgust,Other,Other,Other,0,Enjoyment,Enjoyment,Fear,0
+test_00067,đến năm cuối đại học rồi lúc nhớ lại đéo có gì :)),Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Enjoyment,2
+test_00068,t chắc bỏ nhà ra đi khi ở với bố mẹ kiểu này quá . vẫn may bố mẹ tao không hề giống này tí nào,Enjoyment,Fear,Anger,Fear,0,Other,Fear,Fear,0
+test_00069,đứa con gái nào mà đề nghị là biết bị ma nhập mà né nha mấy cha,Fear,Other,Disgust,Disgust,0,Disgust,Disgust,Disgust,0
+test_00070,"đéo phải ai cũng được đặt tên cho 1 "" thuật bán hàng "" trong kinh doanh đâu . chấm hết",Disgust,Disgust,Disgust,Disgust,3,Enjoyment,Disgust,Disgust,2
+test_00071,per mấy con đĩ lồn cục súc ... dòng thứ quỷ yêu đel làm gì cũng rượt cho sấp mặt luôn,Anger,Disgust,Disgust,Anger,1,Disgust,Anger,Anger,2
+test_00072,hình như bồ tao cũng tập gym 😶😶,Other,Enjoyment,Enjoyment,Enjoyment,0,Sadness,Enjoyment,Enjoyment,0
+test_00073,"lúc trước chạy xe đạp đi ngang qua đàn vịt có mấy con ngỗng lẫn trong đó . thế là dume tụi nó rượt tao vừa chạy vừa la cái thứ âm thanh nghe "" ứ ứ "" "" hiếp em đi "" làm tao sợ tụt lol :))",Fear,Fear,Disgust,Fear,2,Fear,Fear,Fear,3
+test_00074,"tên của tao nghe rất bình thương , không có gì đặc sắc nên nhiều khi nghĩ cùng buồn tẹo .",Sadness,Sadness,Other,Sadness,2,Sadness,Sadness,Sadness,3
+test_00075,thích :)))) đi làm vui hay không là có đồng nghiệp tốt đừng chơi xấu mình là được :)),Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00076,per xem đi mày sẽ sướng thi nhìn con nhện bị giết 😂,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Other,2
+test_00077,chạm đáy nỗi đau 😞,Sadness,Sadness,Fear,Sadness,2,Sadness,Fear,Sadness,2
+test_00078,thế ông bác sĩ đó bây giờ còn sống không 🙂,Other,Sadness,Other,Other,2,Other,Disgust,Other,2
+test_00079,😞 đó sẽ là những kỉ niệm thật đẹp,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00080,"per chưa bị rượt mà đọc bình luận thấy sợ quá , chắc tao sợ chó không là gì với con này :)",Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00081,"bắt cóc như chơi đó mậy , be careful",Fear,Disgust,Disgust,Disgust,0,Other,Other,Disgust,0
+test_00082,đảng ta bao dung thật < 3,Enjoyment,Other,Other,Surprise,0,Other,Fear,Enjoyment,1
+test_00083,rất tiếc em vẫn chưa gặp được anh :((((,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00084,đái mẹ ra quần ??,Fear,Anger,Anger,Anger,0,Other,Anger,Other,0
+test_00085,có ai không nghe thấy nói gì mà toàn xem hình người con gái ấy không 😂,Other,Disgust,Disgust,Sadness,0,Sadness,Disgust,Disgust,0
+test_00086,đẹp trai ghê :)),Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00087,dụ đấy ... đừng tin,Disgust,Disgust,Disgust,Other,2,Surprise,Surprise,Surprise,0
+test_00088,tán cây hình trái tim thì phải,Other,Other,Surprise,Other,2,Disgust,Surprise,Other,1
+test_00089,làm việc vất vả mới được miếng ăn mà chúng nó khốn nạn thật,Anger,Other,Disgust,Sadness,0,Other,Anger,Other,1
+test_00090,dể thương quá ah,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00091,tốt nhất không miễn phí cho những thể loại người như vậy . nhắc nhỉ thẳng thắn,Anger,Anger,Disgust,Disgust,1,Sadness,Other,Disgust,0
+test_00092,gần thôi :))) giờ nhìn lại đề thi và không hiểu sao mình ra trường được :))),Enjoyment,Other,Enjoyment,Other,1,Sadness,Other,Enjoyment,1
+test_00093,những đứa như vậy quá hèn,Disgust,Disgust,Sadness,Disgust,2,Disgust,Sadness,Sadness,1
+test_00094,hồi xưa làm fanpage được gạ kèo 7 triệu nhưng nhất quyết không bán . cảm thấy quyết định đúng đắn nhất trong đời,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00095,per lúc xưa toàn nấu bằng bếp nay,Other,Other,Other,Other,3,Other,Other,Other,3
+test_00096,per luôn yêu đời và luôn yêu công việc em nhé,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Other,Enjoyment,2
+test_00097,"ngày trước thì đòi dấn thân vào showbiz , giờ lại đòi lấy chồng đại gia , đâu ra lắm thế",Disgust,Sadness,Other,Enjoyment,0,Disgust,Disgust,Enjoyment,2
+test_00098,"phim này coi lâu lắm ùi , mà mỗi năm phải coi lại 1 - 2 lần mới đủ , thực sự cực kì hay và sâu sắc , nhạc phim hay mà diễn cũng rất nhập nữa , amir khan đỉnh nhất ^.^/",Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00099,"đần mặt ra nhìn nó y như con ngu , còn cười theo nó nữa , xong bị nó phát hiện .",Enjoyment,Disgust,Disgust,Sadness,0,Disgust,Disgust,Disgust,0
+test_00100,bà tôi giờ mất mấy năm rồi giờ lớn lên rồi mà chả tặng được bà món quà nào cả 😭😭😭,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00101,hãm lồn là khi mình đéo ra gì còn đi nói người khác 🤭,Disgust,Anger,Disgust,Anger,1,Anger,Anger,Disgust,1
+test_00102,"ý thức như lol vậy ai cũng như mày thì máy bay quá tải dẫn tới chết chùm , ý thức như lol vậy mà còn đăng lên",Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00103,ai chửi admin ngu chứng tỏ eq thấp tệ,Disgust,Disgust,Anger,Disgust,2,Disgust,Anger,Disgust,2
+test_00104,nấu mì 2 tôm là vô địch,Enjoyment,Other,Other,Other,0,Other,Enjoyment,Other,1
+test_00105,mấy anh thiệt là nóng bỏng !!,Enjoyment,Other,Other,Other,0,Other,Disgust,Other,0
+test_00106,qua chạy xe nẹt nẹt bốc đầu bố ai dám dô,Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00107,chia se cho ai thích thể hiện nè,Other,Enjoyment,Other,Other,2,Other,Other,Other,3
+test_00108,em mày cách mày bao nhiêu tuổi ?,Other,Other,Other,Anger,2,Other,Other,Other,3
+test_00109,thật chứ thấy bạn nam kia cứu con chó không cần nhìn mặt cũng biết đẹp trai rồi 😆,Enjoyment,Disgust,Disgust,Enjoyment,1,Disgust,Enjoyment,Enjoyment,2
+test_00110,đó là những câu chuyện buồn mà :((,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00111,"diễn còn cứng quá à , kiểu biết rồi mà còn giả bộ bất ngờ :))",Enjoyment,Disgust,Surprise,Disgust,0,Sadness,Surprise,Sadness,0
+test_00112,làm người khác thỏa mãn bằng mùi hương của chính bản thân,Enjoyment,Disgust,Disgust,Disgust,0,Disgust,Disgust,Sadness,0
+test_00113,dkm xấu mặt những thằng tập gym vkl tao đéo hiểu sao thằng này nó lại thích đi đường tiểu ngạch là sao,Disgust,Anger,Disgust,Disgust,2,Disgust,Anger,Disgust,2
+test_00114,"chỉ cần cho em nó 1 điểm tựa , em nó sẽ không ngán cả thế giới :))",Enjoyment,Other,Other,Sadness,0,Sadness,Other,Enjoyment,1
+test_00115,per một lần thôi không có lần thứ hai đâu 😊,Enjoyment,Other,Other,Other,0,Other,Other,Other,0
+test_00116,con đường này chắc dành cho mấy người như tôi,Enjoyment,Fear,Disgust,Other,0,Other,Disgust,Other,0
+test_00117,đã bị đuổi 1 lần . đéo lgi cũng bị dí,Anger,Sadness,Disgust,Fear,0,Enjoyment,Fear,Sadness,0
+test_00118,lựa chọn cách thức tuyển như thế nào thì tốt quá rồi,Enjoyment,Disgust,Disgust,Other,0,Other,Other,Other,0
+test_00119,lùi về sau 3 bước đi . ngứa cả con mắt,Anger,Sadness,Anger,Other,1,Disgust,Anger,Sadness,1
+test_00120,tội bà vợ,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00121,đẳng cấp :)),Enjoyment,Enjoyment,Other,Other,1,Enjoyment,Enjoyment,Enjoyment,3
+test_00122,"nhìn mặt ổng nhẫn nhìn kìa :)) tao chờ sen tao ra thôi , lúc đó tao tung hê hết 😑",Other,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00123,dễ thương 😂,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00124,"đỉnh rồi , hiệu ứng tốt :))) ấn tượng vãi_chưởng luôn",Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00125,ko có biển cấm dừng đỗ nhưng đỗ thò đầu ở ngã 3 kia là rất bố láo .,Anger,Disgust,Disgust,Disgust,0,Disgust,Disgust,Other,0
+test_00126,khi mày tắt điện thoại một buổi sáng và tao nhảy tưng tưng lên :),Other,Fear,Other,Fear,1,Fear,Enjoyment,Enjoyment,0
+test_00127,vèo cái đã 7 năm 😕,Sadness,Other,Sadness,Other,1,Enjoyment,Other,Other,0
+test_00128,đm ngồi chờ đã rồi các tổng đài viên đều bận 😭😭😭,Sadness,Disgust,Other,Sadness,1,Other,Anger,Enjoyment,0
+test_00129,nó đòi mượn áo thôi mà . thằng này kỳ ...,Disgust,Anger,Disgust,Disgust,2,Other,Disgust,Other,1
+test_00130,cả ngàn tin nhắn không đổi lại được 1 lần xem :((,Sadness,Sadness,Other,Sadness,2,Sadness,Fear,Sadness,2
+test_00131,đúng là tốt quá lai thành lạm dụng 😶,Sadness,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00132,"t cũng thế . đang ngồi chơi với con , vợ nó đắp mặt nạ lù lù bước vào . xém đái trog quần ??????",Fear,Disgust,Disgust,Fear,1,Anger,Fear,Enjoyment,1
+test_00133,cũng là 1 mạng người nên các cụ đừng phũ mồm chửi người ta . mong anh ấy sớm siêu thoát . a di đà phật !!!,Other,Anger,Other,Disgust,1,Disgust,Enjoyment,Disgust,0
+test_00134,đây gọi là nghiệp vật,Enjoyment,Enjoyment,Disgust,Disgust,1,Other,Enjoyment,Disgust,1
+test_00135,có khi không biết thế nào là tự ái đâu :))),Other,Other,Other,Other,3,Other,Other,Other,3
+test_00136,cho thơm miếng nào yêu quá cơ,Enjoyment,Disgust,Enjoyment,Enjoyment,2,Surprise,Enjoyment,Other,1
+test_00137,liên quan gì tới mày . mời đám cưới chắc gì mày đã đi . hỏi hỏi con cặc,Disgust,Anger,Anger,Anger,0,Anger,Anger,Anger,0
+test_00138,"thích cái câu "" em không yêu anh nữa ""😊😊",Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00139,cho tao hỏi lúa nó dính mưa vầy ròi thì làm được gì không .,Other,Other,Disgust,Other,2,Other,Anger,Other,2
+test_00140,nghe bạn này nói dễ thương zị,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00141,"làm ca nào không quan trọng , quan trọng là có đồng bọn bảo yến nguyễn hạnh 🤣🤣🤣",Enjoyment,Disgust,Disgust,Anger,0,Other,Other,Disgust,0
+test_00142,đỗ ngay góc cua thế có ngày sứt mõm ??,Other,Other,Surprise,Disgust,1,Surprise,Disgust,Disgust,0
+test_00143,phát ngán .,Disgust,Anger,Surprise,Anger,0,Disgust,Anger,Anger,1
+test_00144,em ý cute vãi !,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00145,per về nhà mà thể hiện,Disgust,Enjoyment,Fear,Surprise,0,Surprise,Sadness,Other,0
+test_00146,đúng . a có tầm nhìn . tâm nữa . mình biết,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00147,củ cà rốt thôi mà cái mẹt đã vây nếu là miếng thịt thì không bít mẹt ra sao nhể 😂,Other,Disgust,Disgust,Anger,0,Surprise,Disgust,Disgust,0
+test_00148,cái miệng nói chuyện không có người phụ nữ nào có trời ơi thật là có duyên khiếp quá đi thôi,Enjoyment,Other,Other,Disgust,0,Sadness,Disgust,Disgust,0
+test_00149,tuyệt vời quá cần nhiều tấm lòng tốt hơn nua thật là ý nghĩa,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00150,đi đâu cũng gặp mấy cái thứ,Anger,Disgust,Disgust,Other,0,Other,Other,Other,0
+test_00151,per sao bố lại đủ bình tĩnh để xem hết cái trailer này nhỉ . _ . sợ vãi,Fear,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00152,sao mà đỉnh dữ vậy trời,Surprise,Surprise,Surprise,Surprise,3,Surprise,Surprise,Surprise,3
+test_00153,"hai thằng đó sẽ .. nhau , cô về nhà nằm mơ típ đi cô bé",Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00154,thương .. hy vọng sớm có người cưu mang bé,Sadness,Sadness,Enjoyment,Enjoyment,1,Enjoyment,Enjoyment,Enjoyment,0
+test_00155,"mức thu cao nhất - đồng ý vì số liệu nó thể hiện như vậy , chứ còn hiệu quả thì mình không biết đúng không 😂 mỗi lần vô vcb là hiểu phải đợi mỏi mòn , không như những nh khác",Sadness,Disgust,Disgust,Disgust,0,Disgust,Disgust,Disgust,0
+test_00156,cần lắm nhiều vụ ly hôn như thế 😂😀😀😁🤣🤣,Enjoyment,Enjoyment,Other,Enjoyment,2,Enjoyment,Other,Enjoyment,2
+test_00157,"sời , lừa làm sao được tao :))",Enjoyment,Disgust,Disgust,Disgust,0,Surprise,Disgust,Disgust,0
+test_00158,"có bao nhiêu đôi ngôn tình , cớ sao lìa xa mình ta :((",Sadness,Other,Other,Other,0,Other,Other,Sadness,1
+test_00159,đây là một câu chuyện buồn không chỉ riêng tao,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00160,con gái tao thì suốt ngày hêy siri bắt chước mẹ 😂,Enjoyment,Anger,Disgust,Anger,0,Disgust,Anger,Anger,0
+test_00161,chạy ios cho máu 😂,Enjoyment,Other,Other,Fear,0,Enjoyment,Disgust,Enjoyment,2
+test_00162,khâm phục !!! quá khâm phục !!!,Enjoyment,Enjoyment,Enjoyment,Disgust,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00163,per dạo này béo quá rùi :(,Sadness,Fear,Other,Fear,0,Enjoyment,Fear,Disgust,0
+test_00164,mau khoẻ nhé :d,Enjoyment,Other,Disgust,Other,0,Other,Other,Other,0
+test_00165,"quá đơn rản , bạn thân yêu ơi ,",Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00166,tao học nhân sự đây còn đang lo thất nghiệp đây này,Fear,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Sadness,Enjoyment,0
+test_00167,cắt cả thắt lưng da của bố để làm ná 😂😂,Enjoyment,Disgust,Disgust,Other,0,Disgust,Disgust,Other,0
+test_00168,per hẹn xem phim này nữa nha mày 😛,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00169,per vẫn là con mẻ . nay hàng họ to quá ;)))),Surprise,Enjoyment,Enjoyment,Sadness,0,Sadness,Enjoyment,Enjoyment,0
+test_00170,"đỡ mua 5k tiền sổ rồi , kaka",Enjoyment,Other,Other,Enjoyment,1,Enjoyment,Other,Enjoyment,2
+test_00171,tinh trùng đâu lắm thế,Surprise,Other,Other,Fear,0,Other,Other,Other,0
+test_00172,"per giỏi phết đấy mỗi tội nghịch thôi , được cái làm từ thiện nhiều .",Enjoyment,Other,Enjoyment,Other,1,Sadness,Enjoyment,Surprise,1
+test_00173,ngọt sớt :))),Enjoyment,Other,Enjoyment,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00174,tuổi thơ mình lớp 4 đã cảm nắng 1 anh chàng từ 1 viên phấn vôi .,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00175,nhìn cái bản mặt bà ta mà ghét thay . tham vô độ . dân mình nhiều nhà dăn ba tỉ còn khó ....,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00176,câu hỏi thú vị 😃😃😃,Enjoyment,Enjoyment,Disgust,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00177,"cô ấy rất tốt , nhưng tôi biết thứ nào tốt đều không dành cho mình",Sadness,Other,Disgust,Sadness,1,Sadness,Disgust,Sadness,2
+test_00178,đm xem mãi quay lưng đi chửa được bước lại dừng :)),Disgust,Enjoyment,Enjoyment,Sadness,0,Enjoyment,Enjoyment,Sadness,0
+test_00179,không gì hơn ngoài tình thân,Other,Other,Other,Other,3,Sadness,Sadness,Sadness,0
+test_00180,"lạ lùng nhỉ , cưỡng hôn trong thang máy thì phạt có 200k coi thường phụ nữ , bây giờ phạt 10 triệu vì đàn lợn chết (???)",Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00181,thật ra nhiều lúc bị bố mẹ chửi không hiểu vì lí do gì và những câu chửi ấy có những từ không chấp nhận nổi,Disgust,Anger,Sadness,Sadness,0,Sadness,Anger,Fear,0
+test_00182,"cay mắt lắm , mà nhìn nó lại nhớ nhiều kỉ niệm",Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00183,per giảm tốc ở bình dương tuổi gì với cái này .,Other,Other,Other,Other,3,Other,Other,Enjoyment,2
+test_00184,per cười tức bụng nà vợ 😄,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00185,"wtf , tao đã làm gì sai ☹️☹️☹️",Sadness,Sadness,Other,Anger,1,Disgust,Surprise,Anger,0
+test_00186,tao không sợ đi làm mệt mỏi tao chỉ sợ không có niềm vui với nó,Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00187,lúc nó điên lên nó chã triệu hồi cả nhà mày ra ấy chứ nhổn,Other,Disgust,Fear,Other,1,Disgust,Anger,Other,1
+test_00188,còn không đụng vào được tóc của sai mà tự xưng vô địch,Disgust,Disgust,Other,Disgust,2,Other,Disgust,Sadness,1
+test_00189,mất niềm tin vào đàn ông chứ chưa từng mất niềm tin vào tình yêu ;,Other,Disgust,Other,Sadness,1,Enjoyment,Anger,Disgust,0
+test_00190,"bọn có tí quan hệ hay thích khoe , ngay chị gì quận phó quận x còn gọi cả công an , chủ tịch phường ra để dằn mặt dân ??",Anger,Anger,Disgust,Disgust,1,Surprise,Disgust,Disgust,0
+test_00191,"uống hết bia rồi mới về ,😂😂😂",Enjoyment,Disgust,Surprise,Other,0,Enjoyment,Enjoyment,Enjoyment,3
+test_00192,anh thứ 2 cute thế =))),Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00193,hơi lạ nhỉ phải nhắn lại cho khách chứ grab thế này bị hủy chuyến làm sao,Other,Other,Disgust,Other,2,Disgust,Disgust,Other,1
+test_00194,chú nghĩ cháu rất giỏi văn và là người có suy nghĩ trưởng thành rồi 💐 rất đáng yêu và tếu giống mấy con giặc nhà chú ❤️,Enjoyment,Enjoyment,Other,Enjoyment,2,Enjoyment,Enjoyment,Disgust,2
+test_00195,đám người lớn văn hóa lùn đẻ ra một đám trẻ vô học . bọn mất dạy này là nhà dột từ nóc ấy mà . nên đuổi học cho lũ ngu học ấy về để nhà tiếp nối sự vô học của gia đình chúng nó,Anger,Disgust,Disgust,Anger,1,Disgust,Anger,Disgust,1
+test_00196,chủ tịch giả làm ăn xin và cái kết . đừng bao giờ coi thường người nghèo,Disgust,Disgust,Disgust,Disgust,3,Other,Disgust,Disgust,2
+test_00197,có ai chỉ tự yêu bản thân như tôi không :(,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00198,không khoe thì không sao . khoe ra mai lại còn cái gốc ... haha 😁,Enjoyment,Anger,Disgust,Other,0,Disgust,Disgust,Disgust,0
+test_00199,nhiệt tình + ngu dốt là phải trả giá bằng tiền mặt 😂😂,Enjoyment,Disgust,Disgust,Disgust,0,Enjoyment,Disgust,Disgust,1
+test_00200,valentine là lễ tình yêu không phải ngày động dục . hãy vì một valentine lành mạnh đi các bạn trẻ 🙃🙃,Disgust,Disgust,Enjoyment,Enjoyment,1,Disgust,Enjoyment,Enjoyment,1
+test_00201,thấy anh đấy làm tùm lum mà con nhện vẫn đứng im là tao biết có chiêu rồi . định gạt anh ak,Enjoyment,Other,Disgust,Fear,0,Other,Fear,Disgust,0
+test_00202,có tí rượu vào nhìn đâu cũng thấy mồi nhìn gì cũng ăn được,Other,Disgust,Sadness,Fear,0,Other,Other,Enjoyment,2
+test_00203,chết luôn .. tình yêu không phân biệt . giới tính .. tình yêu ơi là tình yêu .. tao đau khổ vì mày lắm rồi ...,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00204,tôi cùng hoàn cảnh với bạn má tôi củng bệnh và từng ngày từng ngày tôi bên má tôi sợ giây phút má bỏ tôi ra đi và ngày đó củng đến ai còn mẹ hảy quí từng giây từng khắc bên mẹ,Sadness,Sadness,Sadness,Sadness,3,Fear,Fear,Fear,0
+test_00205,"có mà bữa chạy ngược chiều trên qlo 1a tại có hẻm nhỏ để quẹo tắt , chưa kịp quẹo bị 6 anh csgt + 1 xe bắt xe tấp vô chặn đầu xe , hoảng hồn cmnl .",Fear,Disgust,Disgust,Sadness,0,Disgust,Disgust,Sadness,0
+test_00206,ếch chết tại miệng,Other,Sadness,Disgust,Sadness,0,Enjoyment,Disgust,Disgust,0
+test_00207,"gần 2 năm đến sớm nhất để mở cửa lớp , lúc về cũng là người là sau cùng để khóa cửa . đến giờ ra trường được 3 năm vẫn không muốn vứt chìa khóa của lớp ...",Sadness,Other,Other,Sadness,1,Enjoyment,Enjoyment,Sadness,1
+test_00208,tốt nhất là cần công khai minh bạch là tốt hơn,Other,Enjoyment,Enjoyment,Enjoyment,0,Other,Enjoyment,Enjoyment,1
+test_00209,chắc mình là thánh nguy hiểm,Enjoyment,Other,Fear,Other,0,Fear,Fear,Fear,0
+test_00210,mong bé sớm được mua lại,Sadness,Enjoyment,Enjoyment,Surprise,0,Enjoyment,Other,Enjoyment,0
+test_00211,nhiều tiền để làm gì ..... đạo đức xã hội thế này thì đi học đâm chém chứ học chữ làm gì nữa 😢,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00212,má đớp chanh hùi hụi thế kia mà mặt không nhăn à,Surprise,Anger,Disgust,Other,0,Enjoyment,Enjoyment,Disgust,0
+test_00213,thanh niên trả thù đời bằng cách này hả ?,Surprise,Other,Other,Other,0,Other,Disgust,Other,0
+test_00214,bán hàng onl riết bán luôn não rồi 😂😂,Disgust,Enjoyment,Fear,Enjoyment,0,Enjoyment,Other,Enjoyment,0
+test_00215,per nhớ cái bếp huyền thoại của 2 đứa mình he,Enjoyment,Other,Surprise,Other,0,Enjoyment,Enjoyment,Enjoyment,3
+test_00216,nam chính đẹp . nữ chính hơi già . nếu nữ chính là 1 diển viên dể thương thì xem hay hơn nhiều,Disgust,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00217,chuyển cảnh nhanh quá làm tao theo không kịp luôn á,Surprise,Sadness,Fear,Sadness,0,Disgust,Anger,Anger,0
+test_00218,thật ý nghĩa và hạnh phục cho 2 người họ . nhưng đâu đó trong tao vẫn thấy cái gì đó nó tởm lợn vê lờ 🤔🤔🤔,Disgust,Other,Other,Fear,0,Disgust,Enjoyment,Anger,1
+test_00219,cu ̃ người it xa ̀ mày lă ́ mày ..,Disgust,Enjoyment,Disgust,Enjoyment,1,Disgust,Anger,Disgust,2
+test_00220,ai cũng kiếm ăn thui ... hy vong qua video nay mọi ngươi sống có ý thức hơn ... đưng xem đồng tiền của minh to quá,Disgust,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00221,"chửi vậy cũng bình thường mà mọi người cứ làm quá . mẹ tao cũng suốt ngày chửi tao , tao thấy vui mà .",Enjoyment,Anger,Disgust,Anger,0,Enjoyment,Anger,Anger,1
+test_00222,"t đề nghị tụi mày trả cái đĩa bay cho con bé đi nghe , tới ca mà vào điều tra thì tụi mày mệt :))",Other,Anger,Disgust,Anger,0,Disgust,Anger,Anger,0
+test_00223,thế nên thổ lộ trực tiếp vẫn hơn là tin nhắn .,Other,Other,Other,Other,3,Other,Other,Sadness,2
+test_00224,từ lúc có vợ nhiều váy mặc để quay video hẳn :)))))),Enjoyment,Other,Other,Enjoyment,1,Enjoyment,Other,Enjoyment,2
+test_00225,người việt nam mãi mãi cũng chỉ là bọn hạ cấp so với nước ngoài vì ý thức như lol có 100 năm sau thì ý thức vẫn đel bằng,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00226,ừ nhìn rợn thật =]]]],Disgust,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Disgust,Enjoyment,1
+test_00227,"đuma tao đang ở đấy nè , vừa đi vừa ôm túi sợ cướp :((",Fear,Fear,Fear,Fear,3,Fear,Fear,Sadness,2
+test_00228,phát hiện mới !!!,Surprise,Enjoyment,Surprise,Other,1,Other,Sadness,Disgust,0
+test_00229,"ai cũng chỉ muốn cho con tất cả nhưng vì được không có mà thôi , có con thì mới biết lòng cha mẹ",Sadness,Sadness,Disgust,Sadness,2,Sadness,Other,Sadness,2
+test_00230,moẹ ! nghe cái tên đã hấp con mẹ nó dẫn lắm rồi đây này ! đjln ??????,Enjoyment,Anger,Disgust,Fear,0,Enjoyment,Enjoyment,Enjoyment,3
+test_00231,per không bao giờ quên được hihi,Enjoyment,Other,Sadness,Other,0,Other,Sadness,Other,0
+test_00232,nói câu trước đá câu sau vẫn là sai bét đúng không cả nhà,Disgust,Sadness,Other,Other,0,Other,Other,Enjoyment,0
+test_00233,ngu người,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00234,nói xong còn chả dám ăn nữa 😂😂,Fear,Disgust,Sadness,Fear,1,Sadness,Sadness,Fear,1
+test_00235,cứu tao :(( tao sợ rắn,Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00236,t thấy tội nghiệp thằng cải,Enjoyment,Sadness,Sadness,Sadness,0,Sadness,Sadness,Sadness,0
+test_00237,anh yêu đứa bướng lắm vì mỗi lần em bướng là anh treo em lên sàn nhà đập mát tay,Other,Enjoyment,Other,Enjoyment,1,Enjoyment,Sadness,Enjoyment,0
+test_00238,chỉ mới hỏi về người khác giới cái là bị gán là thích bạn đó luôn mí sợ :(,Sadness,Other,Disgust,Disgust,0,Disgust,Fear,Other,0
+test_00239,tối mà tắt đèn gặp mặt nó với cặp mắt nó là tao còn sợ hơn thấy ma,Fear,Anger,Fear,Fear,2,Fear,Fear,Fear,3
+test_00240,công nhận chữ đẹp . 🤧,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00241,áo phông dễ thương quá anh ơiiii,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00242,còn nhiều người có cuộc sống khốn khổ hơn ta :),Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00243,mèo nhà em thì cho tiền cũng không ra khỏi cửa,Other,Other,Disgust,Sadness,1,Other,Other,Sadness,2
+test_00244,đào đúng chó cậy chủ =))),Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00245,:v crush có người yêu rồi,Sadness,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00246,cái con đồ chơi đó mua ở đâu nhỉ . cười đéo nhặt được mồm . 😂😂😂,Enjoyment,Disgust,Disgust,Enjoyment,1,Disgust,Disgust,Enjoyment,1
+test_00247,nghĩ lại ngày xưa cũng như 2 đứa nhỏ ??,Other,Other,Other,Other,3,Sadness,Enjoyment,Other,1
+test_00248,hôm nay quên vào đọc bình luận trước !! tính xem con nhện nước bạn khác nhện nước mình như thế nào ! ai ngờ đâu khác xa quá !! d mày mày adm ơi làm hết hồn !!,Anger,Other,Disgust,Sadness,0,Disgust,Disgust,Enjoyment,0
+test_00249,má cười ỉa luônn,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00250,1 năm lật tàu trật đường ray của vận tải đường sắt việt nam !,Other,Other,Other,Other,3,Other,Other,Other,3
+test_00251,"mày làm tao nhớ em gái ghê , mai sinh nhật con bé rồi mà tao đang đi làm xa nhà , không về được .......... 😑",Sadness,Sadness,Sadness,Sadness,3,Sadness,Disgust,Sadness,2
+test_00252,cái câu liếm củi chỏ sao sai được nhỉ,Other,Other,Surprise,Surprise,1,Surprise,Enjoyment,Surprise,0
+test_00253,chỉ cần nghĩ tới cảnh đó là máu kinh sôi trào như núi lửa 😂😂😂,Anger,Other,Other,Other,0,Other,Other,Other,0
+test_00254,tư ̀ hô ̀ i ba ̣ n â ́ y chuyê ̉ n trươ ̀ người thi ̀ chă ̉ người co ̀ n ai đô ́ i xư ̉ tô ́ tao vơ ́ i tao như vâ ̣ y nư ̃ anh . :(,Sadness,Enjoyment,Disgust,Sadness,1,Enjoyment,Sadness,Disgust,1
+test_00255,đợi chúng nó đang ăn lấy xe cứu hỏa phun nước ôi tao hình dung ra cảnh đó thật tuyệt,Enjoyment,Other,Disgust,Anger,0,Other,Other,Sadness,0
+test_00256,đã check in thành công và mãi vẫn chưa gặp được người ấy là ai :((,Sadness,Enjoyment,Sadness,Sadness,2,Sadness,Disgust,Sadness,2
+test_00257,đôi khi thích nói chuyện chỉ vì nói chuyện hợp và vì thích nói chuyện chứ thật ra chả phải yêu đương hay thích kiểu trai gái gì,Other,Sadness,Other,Enjoyment,1,Sadness,Enjoyment,Enjoyment,0
+test_00258,"mình thấy sợ mấy con rắn quá trời , mà cái gì mình sợ là mình hay muốn tiêu diệt -))",Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00259,hút ít thôi và hãy chích nhiều hơn 😐,Disgust,Enjoyment,Enjoyment,Other,0,Enjoyment,Enjoyment,Other,0
+test_00260,"em cũng như con chó thôi , nếu anh đủ kiên nhẫn thì mọi chuyện đã khác rồi 😪",Sadness,Sadness,Other,Sadness,2,Sadness,Enjoyment,Sadness,2
+test_00261,per khi trong người khó ở thì nên vào đây . động lực để nôn,Disgust,Other,Other,Enjoyment,0,Other,Enjoyment,Other,0
+test_00262,ê tao đi nhật chưa được 1 năm mà xem video này làm tao loạn ngôn ngữ ghê . thỉnh thoảng phải dừng video ngẫm câu nó nói nghĩa gì,Fear,Disgust,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Anger,0
+test_00263,"về thôi , nghỉ ngơi rồi nở rộ tiếp",Other,Disgust,Enjoyment,Other,1,Sadness,Disgust,Other,1
+test_00264,ông mặt trời dễ thương hha,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00265,vậy nên cứ lờ đi mà sống tiếp,Other,Other,Other,Other,3,Other,Other,Other,3
+test_00266,vậy vài bửa trời nắng mình không mang quần nằm dưới nắng cho nó nở ra :)),Other,Other,Sadness,Other,2,Other,Other,Other,3
+test_00267,những cử chỉ đẹp làm từ thiện cho người nghèo hay thiếu đến lấy thừa đi đến cho,Enjoyment,Other,Sadness,Sadness,0,Enjoyment,Disgust,Other,1
+test_00268,ý tưởng hay 😂,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00269,cả thế giới thấy hay trừ tao,Other,Sadness,Disgust,Fear,0,Sadness,Fear,Sadness,0
+test_00270,toàn mấy con lợn ký gửi với xách tay thì đợi đấy mà xếp hạng :)),Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00271,nhanh vãi mới thấy xong,Other,Surprise,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00272,sợ quá đi,Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00273,tao đây chứ còn ai,Other,Enjoyment,Sadness,Enjoyment,0,Sadness,Sadness,Other,1
+test_00274,bằng củi thì tao nấu suốt cho tới tận bây giờ còn bằng rơm thì chưa từng :v,Other,Sadness,Other,Sadness,1,Other,Other,Other,3
+test_00275,thấy dòng này quen quen . thấy đọc bình luận của ai á . haha . buồn cười 🤣 🤣 🤣,Enjoyment,Enjoyment,Disgust,Enjoyment,2,Disgust,Enjoyment,Enjoyment,2
+test_00276,tuy chưa viết hết nhưng tao người khác sẽ hiểu là viết cái gì,Enjoyment,Sadness,Sadness,Sadness,0,Sadness,Sadness,Sadness,0
+test_00277,làm ở đâu cũng vậy cũng có đầy rẫy những khó khăn nhưng trọng hơn là làm cùng những đồng nghiệp như thế nào,Other,Sadness,Other,Sadness,1,Disgust,Other,Disgust,1
+test_00278,không nha cậu :) mình đi bình thường nha =)),Enjoyment,Sadness,Disgust,Enjoyment,1,Enjoyment,Other,Enjoyment,2
+test_00279,bác không ở lại làm tô phở đã 🙃🙃🙃,Other,Other,Other,Other,3,Other,Other,Other,3
+test_00280,per tao thấy mấy ảnh thật đẹp trai,Enjoyment,Fear,Enjoyment,Enjoyment,2,Enjoyment,Enjoyment,Surprise,2
+test_00281,do mày ngu đéo ghi chỗ khác :)),Disgust,Disgust,Disgust,Disgust,3,Disgust,Anger,Anger,1
+test_00282,"phàm việc quan trọng trong thiên hạ , cứ về hỏi vợ , vợ nói sao cứ làm ngược lại chắc chắc sẽ đúng !",Enjoyment,Disgust,Other,Other,0,Disgust,Other,Other,0
+test_00283,à ra là ngứa mắt vì người ta đỗ ô tô mà không phải trả tiền . khi nào người ta mất tiền mới hài lòng .,Disgust,Disgust,Disgust,Anger,2,Anger,Anger,Disgust,1
+test_00284,cái toilet hay nhỉ vào đấy được thoải mái nhìn nhau mà trò chuyện trong lúc ị ... :),Surprise,Disgust,Disgust,Enjoyment,0,Enjoyment,Fear,Enjoyment,0
+test_00285,dễ thương ha,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00286,chia buồn cùng khổ chủ,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00287,cao su đó khai thắc làm sao có mủ,Other,Other,Surprise,Sadness,1,Other,Other,Other,3
+test_00288,sao mà có nhiều người ngu quá . đậu xe xát đường ray xe lửa . còn mấy thg bình luận cũng ngu theo xe lửa chạy theo đường ray mà kêu nó bẻ lái qua chúc xíu . bẻ đi đâu được mà bẻ,Disgust,Anger,Anger,Disgust,1,Disgust,Anger,Disgust,2
+test_00289,cháu xl ông trước . cháu cũng không có í gì chê bai đâu ạ . nhưng cháu nhìn móng dài bẩn quá . đang ăn mà cháu cũng run run .,Disgust,Disgust,Disgust,Disgust,3,Disgust,Other,Disgust,2
+test_00290,giờ cứ thành lập các tổ an ninh . bắt được bao nhiêu . chiên free cho các tiệm bia hết là bao tuyệt chủng 😂😂,Enjoyment,Anger,Other,Disgust,0,Disgust,Other,Other,0
+test_00291,cay và đắng nghe mấy ông lớn tuổi toàn kêu thế thôi,Enjoyment,Sadness,Disgust,Other,0,Disgust,Other,Other,0
+test_00292,"làm video thì ăn bớt chắp chắp như heo lại , đang coi nghe ăn phát mất con mẹ nó hứng , vô duyên",Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Anger,2
+test_00293,cha mẹ tao còn cãi lộn nhau vì không biết ngày sinh tháng sinh của tao là dương hay âm 😢😢,Sadness,Sadness,Sadness,Enjoyment,2,Sadness,Disgust,Sadness,2
+test_00294,người ta đã phải bỏ tiền . bỏ sức ra mới có bữa cơm từ thiện nv mà còn có những người vô ý thức như vậy,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00295,oaaaaaaa ...... thực sự rất tạo động lực và niềm tin cho người khác đó < 3 rất thích nụ cười và sự thoải mái tự tin của anh chị < 3,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00296,nhớ đến lại buồn . chuyện tình chúng ta chẳng đi được đến đâu cả,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00297,xuất sắc quá,Surprise,Enjoyment,Enjoyment,Enjoyment,0,Surprise,Enjoyment,Enjoyment,1
+test_00298,nhà tao vẫn nấu . à mà lâu lâu tao về nấu một lần thì không cháy cũng nát,Sadness,Anger,Fear,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00299,thiết kế đẹp quá,Surprise,Enjoyment,Surprise,Enjoyment,1,Enjoyment,Surprise,Surprise,2
+test_00300,per không nhận dạng được mặt bả luôn,Surprise,Other,Other,Other,0,Other,Fear,Other,0
+test_00301,18t đủ trách nhiệm pháp lý rồi 😏,Other,Sadness,Sadness,Sadness,0,Enjoyment,Other,Sadness,1
+test_00302,vô học !😡😡😡. tý tuổi tưởng vậy là hay !,Disgust,Enjoyment,Disgust,Enjoyment,1,Enjoyment,Enjoyment,Enjoyment,0
+test_00303,ai thử rồi cho xin tấm hình cái coi nào,Other,Other,Sadness,Other,2,Other,Enjoyment,Enjoyment,1
+test_00304,"bố mẹ thì còng lưng nuôi ăn học vất vả không mua được thì thôi , bất hạnh cái gì , bất hạnh cái gì",Anger,Disgust,Anger,Anger,2,Disgust,Anger,Anger,2
+test_00305,"đúg là dân miền tây , chưa nói đã chửi tục rồi . vậy mà cũg đăg lên được . ở gần phòng mấy người này , đầu mình không yên được .",Disgust,Other,Disgust,Sadness,1,Other,Disgust,Disgust,2
+test_00306,nó thả thính xong nó chạy mất ..,Sadness,Other,Other,Fear,0,Disgust,Other,Disgust,0
+test_00307,bị nó chặn đầu mấy lần khóc sướt mướt luôn . mấy con yêu nghiệt này còn dữ hơn chó,Fear,Disgust,Disgust,Fear,1,Disgust,Other,Disgust,0
+test_00308,lò xo chắc giờ không còn nữa rồi,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00309,chơi cái trò mất dạy :)),Anger,Disgust,Disgust,Disgust,0,Anger,Disgust,Disgust,1
+test_00310,trong luâ ̣ tao co ́ khung hi ̀ nh pha ̣ tao bă ́ n không . ghê tơ ̉ mày con qua ́ i na ̀ y qua ́,Disgust,Disgust,Disgust,Fear,2,Disgust,Anger,Anger,1
+test_00311,tao chỉ lên ngắm cảnh tí xíu mà mày cũng dìm tao :)))),Sadness,Sadness,Fear,Fear,1,Sadness,Enjoyment,Disgust,1
+test_00312,tim vỡ nát,Sadness,Other,Sadness,Surprise,1,Other,Other,Disgust,0
+test_00313,có biết giận là gì đâu 😌🙂,Other,Other,Other,Other,3,Other,Other,Other,3
+test_00314,lương này là tính luôn quá trình tham nhũng ăn bớt ăn xén rồi đó ! tụi mày chưa đủ trình đó thì lấy tư cách gì nói người ta nói xạo ?,Disgust,Disgust,Disgust,Disgust,3,Anger,Disgust,Disgust,2
+test_00315,per không lấy được vợ thì có thể đi tâp gym đêt lấy chồng 😁😁,Enjoyment,Other,Sadness,Disgust,0,Sadness,Enjoyment,Fear,1
+test_00316,đéo thể tin tưởng một ai được,Other,Disgust,Disgust,Disgust,0,Other,Surprise,Disgust,1
+test_00317,thái độ lồi lõm có ngày răng rụng đầy đường đấy =)),Disgust,Disgust,Other,Enjoyment,1,Disgust,Disgust,Enjoyment,2
+test_00318,thử đụng vô tao coi dume mấy thằng lol cặn bã,Anger,Anger,Disgust,Anger,2,Anger,Anger,Anger,3
+test_00319,chắc anh phải đáng yêu lắm luôn ý nhể 🤗🤗,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00320,muốn bảo vệ và chăm sóc người đấy,Enjoyment,Disgust,Sadness,Other,0,Sadness,Other,Other,0
+test_00321,hết sức nguy hiểm và có phần dại dột !,Disgust,Fear,Fear,Fear,0,Fear,Enjoyment,Fear,0
+test_00322,"ôi thôi , cưng quá :v",Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00323,nghe kể mà thèm ạ :'(,Sadness,Surprise,Enjoyment,Enjoyment,0,Sadness,Sadness,Enjoyment,2
+test_00324,"per vãi xem phải cỡ này . , đoạn nó nhếch môi bố mày sợ suýt đái ra quần dume 😑",Fear,Anger,Fear,Fear,2,Fear,Fear,Fear,3
+test_00325,tao . đôi lúc nghĩ lại thì tao vẫn thấy sợ tao lúc tức giận .,Fear,Fear,Fear,Fear,3,Fear,Fear,Enjoyment,2
+test_00326,nó mà là đặc vụ thật thì lại ngớ người 😂,Other,Other,Other,Disgust,2,Disgust,Disgust,Other,1
+test_00327,các chàng trai của tôi về đến nhà chưa ??,Other,Other,Enjoyment,Other,2,Enjoyment,Enjoyment,Enjoyment,0
+test_00328,liệu có còn tồn tại cô gái nào chấp nhận một thằng vừa nghèo vừa xấu đặc biệt lại còn yếu sinh lý như tôi không,Sadness,Disgust,Disgust,Disgust,0,Disgust,Disgust,Disgust,0
+test_00329,per quan tâm per như là 1 đứa em gái thôi . đừng có mà ảo tưởng nha .,Other,Disgust,Other,Disgust,1,Other,Enjoyment,Disgust,1
+test_00330,vì ghét nhau thôi,Disgust,Disgust,Sadness,Other,1,Sadness,Other,Disgust,1
+test_00331,một con ngựa hoang đúng nghĩa ..... đầy tài năng nhưng đang tiếc là không gặp được hlv và những đồng đội hỉu mình,Enjoyment,Sadness,Sadness,Sadness,0,Disgust,Sadness,Sadness,0
+test_00332,hời ơi ... cưng xĩu,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00333,t chỉ chờ đết lúc nó lôi ra xem được cục to như ngón tay không,Other,Disgust,Other,Other,2,Other,Sadness,Other,2
+test_00334,nuôi kiểu đéo gì lại để nó như thế này ??? thằg chủ có tâm hồn thối rữa à ??,Anger,Disgust,Disgust,Disgust,0,Disgust,Anger,Disgust,1
+test_00335,hút cần xong đúng là đời toàn màu hồng em nhỉ . nói chậm vãi :)))),Disgust,Enjoyment,Disgust,Enjoyment,1,Disgust,Enjoyment,Enjoyment,1
+test_00336,cục cuối khủng bố vãi vậy :(,Surprise,Disgust,Sadness,Sadness,0,Sadness,Sadness,Sadness,0
+test_00337,per xem xong hình như tao mới bị thêm bệnh tiểu đường,Sadness,Other,Sadness,Sadness,2,Sadness,Sadness,Sadness,3
+test_00338,"mất dạy từ nhỏ , đẹp mặt khi bố mẹ nó đang ngồi xem tivi , cứ tưởng hay",Disgust,Anger,Enjoyment,Fear,0,Disgust,Fear,Enjoyment,1
+test_00339,wow sản phẩm tốt ngoài mong đợi luôn á,Surprise,Surprise,Surprise,Surprise,3,Surprise,Surprise,Surprise,3
+test_00340,không cướp ở đâu đi cướp ngân hàng của nhà nước 🤣🤣🤣🤣,Enjoyment,Disgust,Disgust,Disgust,0,Disgust,Enjoyment,Disgust,1
+test_00341,đấy thấy chưa con người ta khổ như thế,Sadness,Sadness,Disgust,Sadness,2,Sadness,Disgust,Disgust,1
+test_00342,"quàooo hay vậy sao , chà chà =))))",Surprise,Surprise,Surprise,Surprise,3,Surprise,Surprise,Enjoyment,2
+test_00343,nuốt được cục tiền đó cũng hay đó ( y ),Enjoyment,Enjoyment,Other,Enjoyment,2,Other,Other,Enjoyment,1
+test_00344,mày nhớ đặt bạn ý cho những lần gọi sau nhé !,Other,Disgust,Disgust,Disgust,0,Anger,Disgust,Enjoyment,0
+test_00345,nhiệt tình cộng ngu dốt bằng phá hoại,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00346,lỗi tại cái gậy thôi mà 🤣🤣🤣,Other,Disgust,Disgust,Disgust,0,Other,Disgust,Disgust,1
+test_00347,hả hả .. tới giờ ăn hả,Surprise,Surprise,Surprise,Surprise,3,Surprise,Surprise,Surprise,3
+test_00348,"chưa tỏ tình với ai bao giờ , nhưng tao bức xúc với những người không tôn trọng quyền riêng tư như vậy",Anger,Sadness,Other,Sadness,0,Sadness,Sadness,Sadness,0
+test_00349,"mỗi lần nó cắt thì tao không muốn thấy mặt nó một tuần , nhìn xấu vãi",Disgust,Other,Enjoyment,Sadness,0,Disgust,Fear,Sadness,1
+test_00350,"t đéo hiểu ai bày ra cái này . xàm lol chết mẹ . người ta viết nhạc cho nghe rồi làm video xàm , mày thề là không hát theo đi",Disgust,Anger,Disgust,Anger,1,Anger,Anger,Anger,0
+test_00351,"con quỷ này dí bao dai ... thù dai hơn cả chó , tuổi thơ đi ngang qua bầy ngỗng là y như rằng đúng con quỷ đó nó dí tao",Anger,Anger,Fear,Fear,1,Disgust,Anger,Disgust,1
+test_00352,nhìn là biết đỏ chót rồi,Other,Other,Other,Disgust,2,Other,Disgust,Other,2
+test_00353,đựng túi nilon là chất rồi 🤣,Enjoyment,Other,Other,Other,0,Sadness,Other,Enjoyment,1
+test_00354,"tan rã hết rồi , giờ toàn đánh lẻ thôi 😭😭😭",Sadness,Disgust,Disgust,Sadness,1,Sadness,Disgust,Sadness,2
+test_00355,ăn học bao nhiêu năm rồi mà vẫn ngu,Disgust,Sadness,Sadness,Sadness,0,Sadness,Sadness,Sadness,0
+test_00356,cái lol mẹ đóng vào mồm thì có ở đấy mà đóng băng,Anger,Anger,Disgust,Anger,2,Anger,Anger,Anger,3
+test_00357,khoảnh khắc tao nhận ra tao đã từng rơi vào hoàn cảnh bế tắc này 😌😌,Sadness,Enjoyment,Sadness,Sadness,2,Enjoyment,Sadness,Fear,1
+test_00358,t nói té 1 cái không dập mề thua gì cũg thua ..,Fear,Other,Disgust,Disgust,0,Other,Disgust,Fear,1
+test_00359,"cái này mà đơn giản ? chị à , là chị nghĩ đơn giản thôi =]]]]",Disgust,Surprise,Surprise,Surprise,0,Surprise,Surprise,Surprise,0
+test_00360,tao ở thanh hà và nhà tao không quả vải nào hết 😂,Sadness,Enjoyment,Other,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00361,hãy mang cô ấy sang việt nam ngay,Other,Other,Other,Other,3,Disgust,Enjoyment,Other,1
+test_00362,:)) thật là kì lạ,Surprise,Surprise,Surprise,Enjoyment,2,Enjoyment,Enjoyment,Surprise,1
+test_00363,"bả thôi đó , gặm đi .",Other,Other,Disgust,Enjoyment,1,Enjoyment,Anger,Disgust,0
+test_00364,per tụi bây có thấy nó vô lí vlonee hôngg 🙂,Disgust,Other,Disgust,Other,1,Disgust,Anger,Disgust,2
+test_00365,"họ sáng tạo , cải chế cho đời thêm xanh thì bảo họ luồn cúi .",Disgust,Disgust,Disgust,Other,2,Sadness,Disgust,Disgust,2
+test_00366,per thua là hết cf để uống .,Other,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00367,đơn giản vậy thôi là đủ ❤️,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00368,mày nói thôi mà tao nghĩ cũng thấy buồn rồi :(((,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00369,đái mẹ ra quần,Fear,Anger,Anger,Fear,1,Anger,Anger,Anger,0
+test_00370,còn tôi tự nhủ dù lớp học tự ý bỏ về hết tôi cũng phải ở lại học đến tiết cuối cùng . hết giờ tôi cứ ngồi đó rồi từ từ bước chậm ra cửa ngoái đầu nhìn lại .,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00371,làm bát phở đã bác ơi,Other,Other,Surprise,Enjoyment,1,Other,Other,Enjoyment,2
+test_00372,"bị ám ảnh hồi bé đi nhổ răng , không dám đi nha sĩ nữa :((( huhu 😭😭",Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00373,tôi trưởng thành vclll,Enjoyment,Enjoyment,Sadness,Sadness,1,Other,Sadness,Other,0
+test_00374,"dậy tắt đồng hồ báo thức kìa , giờ này còn ngủ được à :v",Other,Other,Disgust,Enjoyment,1,Enjoyment,Surprise,Surprise,0
+test_00375,"lỗi tại cái cây hay lỗi tại anh , tại anh nặng quá nên cây ....",Disgust,Other,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00376,"tự nhiên thấy tụi con gái khóc tu tu , thế là mình lủi ra ghế đá trước lớp ngồi . tự nhiên cô dạy văn cũng ra theo xong ôm mình khóc ,",Sadness,Anger,Disgust,Enjoyment,0,Disgust,Disgust,Enjoyment,0
+test_00377,đến ông cũng chẳng dám xơi,Fear,Fear,Enjoyment,Enjoyment,1,Other,Enjoyment,Fear,1
+test_00378,hiếu nghĩa . nhìn cái này nhớ mắc cười má đào chúc quá 😀😀😀,Enjoyment,Enjoyment,Other,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00379,ôi trời nguy hiểm thế,Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00380,tội cho mấy thằng đang xoay tiền mua bánh trung thu cho vợ thằng khác ăn,Sadness,Anger,Disgust,Disgust,0,Disgust,Anger,Disgust,0
+test_00381,mấy thằng ở ngoài bình luận gặp tao tao xé mỏ từng đứa . cha mẹ đéo dạy để xã hội dạy nhé . còn phèn lắm,Anger,Anger,Disgust,Anger,2,Anger,Anger,Anger,3
+test_00382,dỡn ngu gặp những tg yếu tim đùa kiểu này nó lên cơn lăn đùng ra ăn cho hết ...,Disgust,Disgust,Disgust,Disgust,3,Disgust,Anger,Disgust,2
+test_00383,cười ỉa :)),Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00384,trước em cũng hắt xì 1 cái lưng khụ xuống như ông già đau vãi,Sadness,Sadness,Enjoyment,Sadness,2,Sadness,Sadness,Sadness,3
+test_00385,"thôi xong 1 chiếc ôto . chắc tối nay ăn không ngon , nhậu không yên rồi .",Sadness,Other,Sadness,Other,1,Sadness,Sadness,Fear,2
+test_00386,cuteeeeeee 😊😊😊😊😊,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00387,bà tao mất rồi :<,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00388,nó cười mà muốn rụng tim 😂💔,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Other,Enjoyment,Enjoyment,2
+test_00389,ui còn chưa kịp đi xem đã rút rồi :((,Sadness,Sadness,Enjoyment,Sadness,2,Sadness,Sadness,Sadness,3
+test_00390,"con đĩ mèo mất dạy ! gặp tao tao đá cái mày , dám đánh con thỏ của tao , bởi tao ghét vxl",Anger,Anger,Anger,Anger,3,Anger,Anger,Anger,3
+test_00391,em ấy còn viết đẹp hơn mình luôn á,Surprise,Enjoyment,Enjoyment,Sadness,0,Enjoyment,Enjoyment,Sadness,0
+test_00392,em chân thành nên em tổn thương !,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00393,dume mình tưởng tinh trùng :),Disgust,Fear,Other,Fear,0,Fear,Fear,Fear,0
+test_00394,béo quá không ai yêu thì về đây em nuôi nè,Other,Enjoyment,Enjoyment,Sadness,0,Enjoyment,Fear,Enjoyment,0
+test_00395,rút kinh nghiệm năm ngoái 😂😂😂😂😂👍👍👍,Enjoyment,Enjoyment,Sadness,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00396,đ biết tình yêu là gì mà ăn rồi cứ đi thả thính đậu má,Disgust,Disgust,Disgust,Other,2,Disgust,Disgust,Other,2
+test_00397,per móc lên tới não :)),Fear,Enjoyment,Enjoyment,Other,0,Surprise,Enjoyment,Other,0
+test_00398,sợ vãi nồi tao còn tg thằng kia bay ra cơ :)))),Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00399,cũng đúng :)),Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00400,tao nghe nói đứa bé còn nhỏ là không được chụp hình đâu mày,Other,Other,Other,Other,3,Sadness,Other,Sadness,1
+test_00401,bị bắt nạt im re hà hiền khô luôn thấy tội nghiệp ai dè tới chừng ...... ha ha ha,Enjoyment,Disgust,Sadness,Sadness,0,Sadness,Other,Disgust,0
+test_00402,mới yêu thôi nhá yêu lâu rồi chán nhau rồi á thử xem đường đứa nào đứa đấy đi,Other,Other,Enjoyment,Other,2,Other,Enjoyment,Other,2
+test_00403,"con bố mẹ nào không dạy được để xã hội dạy cho , bố mẹ bất hợp tác để làng xóm hợp tác",Disgust,Anger,Anger,Fear,0,Anger,Anger,Anger,0
+test_00404,"thằng lái tàu quá đáng , bẻ lái qua tý có sao đâu :))",Disgust,Disgust,Disgust,Disgust,3,Disgust,Enjoyment,Disgust,2
+test_00405,đừng đùa với nước bạn,Other,Other,Other,Other,3,Disgust,Other,Other,2
+test_00406,tiền mất tật mang . xe đã nát rồi giờ còn phải đền cách cửa cho tàu nửa,Sadness,Disgust,Sadness,Anger,1,Sadness,Disgust,Disgust,1
+test_00407,ưng dã man luôn,Enjoyment,Disgust,Enjoyment,Fear,1,Fear,Fear,Surprise,0
+test_00408,rất có thể nó đang pr trá hình để bán hàng,Other,Other,Other,Other,3,Other,Other,Enjoyment,2
+test_00409,per mắc dại quá mà,Disgust,Enjoyment,Surprise,Other,0,Sadness,Surprise,Disgust,1
+test_00410,per lại lật nữa hả,Surprise,Enjoyment,Other,Surprise,1,Enjoyment,Other,Other,0
+test_00411,các em thật là vãi,Disgust,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Surprise,0
+test_00412,cầm cái búa ra,Other,Other,Surprise,Disgust,1,Disgust,Surprise,Surprise,0
+test_00413,per vẽ ổ điện bá vãi em ạ 😂,Surprise,Enjoyment,Other,Enjoyment,0,Other,Other,Enjoyment,0
+test_00414,thế không đạt được gì à,Surprise,Other,Other,Disgust,0,Surprise,Surprise,Other,2
+test_00415,cuộc sống tạo ta áp lực ..,Fear,Sadness,Sadness,Enjoyment,0,Enjoyment,Enjoyment,Other,0
+test_00416,tư tưởng đột phá đấy chứ,Surprise,Disgust,Disgust,Disgust,0,Other,Disgust,Disgust,0
+test_00417,đối với tình yêu thì thời gian có tác dụng xây đắp chứ không còn là phá huỷ mọi thứ nữa . ngưỡng mộ hai ông bà ❤️❤️❤️,Enjoyment,Disgust,Other,Disgust,0,Enjoyment,Other,Enjoyment,2
+test_00418,"thời đi học tao còn bị bạt tai với bắt quỳ trên bục giảng luôn , tội phá , như này thấm gì đâu :3 phụ huynh ngày nay cứ làm quá lên",Disgust,Anger,Sadness,Sadness,0,Sadness,Sadness,Sadness,0
+test_00419,bây giờ thế mới biết tác dụng của con cái 😢,Sadness,Other,Disgust,Sadness,1,Sadness,Other,Sadness,2
+test_00420,đây là thằng chó,Disgust,Disgust,Surprise,Disgust,2,Disgust,Disgust,Disgust,3
+test_00421,trẻ trâu việt nam thật đáng sợ,Fear,Disgust,Enjoyment,Disgust,0,Enjoyment,Fear,Disgust,1
+test_00422,"ngày đẹp trời là ngày được nghỉ làm , đi những nơi mình thích , với người mình thương , ăn những món ăn ngon . xong về ôm nhau ngủ :)))",Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00423,mày bị ngu hả đĩ chó :) hết chỗ viết à :) thích viết thì tìm chỗ nào đéo trôi á :) hoặc mua giấy về viết chứ địt mẹ viết rồi lại viết làm tao buồn mày :),Anger,Anger,Anger,Anger,3,Disgust,Anger,Anger,2
+test_00424,"t dọn quán hát mà muốn diệt sạch mấy con ngu :))) đuỵt ăn sinh nhật mà cỡ nát hết cốc , bôi bánh hết lên ghế bàn thì ks , đây bôi cả lên loa , ti vi , trần nhà .... dume cái :))) đồ điện bôi lên để tao dọn tao bị giật chết à :))",Anger,Anger,Disgust,Anger,2,Anger,Disgust,Anger,2
+test_00425,giáo viên tiếng anh mà không biết tiếng anh ?,Disgust,Disgust,Disgust,Other,2,Disgust,Other,Other,1
+test_00426,tao có hiểu đéo gì đau,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00427,sao không xúm lại rỉa lông tụi đầu bếp nhỉ .,Other,Other,Surprise,Other,2,Other,Surprise,Fear,1
+test_00428,khang khang 1 thời cùng nhau vui say ! bjo thì khác rồi thân ai nấy lo hở chị hố hố ;)),Enjoyment,Enjoyment,Other,Sadness,1,Enjoyment,Enjoyment,Enjoyment,3
+test_00429,phát hiện nghi vấn đổ vỏ :)),Other,Enjoyment,Surprise,Other,1,Surprise,Enjoyment,Disgust,0
+test_00430,tuổi thơ bất hạnh .. học mẫu giáo mà cạnh trường học là 1 bầy ngỗng . sáng nào tao cũng được chạy bộ tập thể dục nhờ bọn nó,Sadness,Disgust,Disgust,Fear,0,Disgust,Fear,Enjoyment,0
+test_00431,:v cướp xong trừ khi ông bơi sông . chứ đi đường :)))) với cái bộ dạng đó . ai trả thấy :))),Disgust,Disgust,Disgust,Enjoyment,2,Disgust,Disgust,Enjoyment,2
+test_00432,không biết ô ý có nhận con nuôi không nhỉ ?,Other,Disgust,Other,Other,2,Other,Disgust,Other,2
+test_00433,"1 chút đắng , chút chua cay , với 1 chút ngọt ngào ở đâu đó 😞",Sadness,Sadness,Enjoyment,Other,1,Other,Other,Other,0
+test_00434,quá đau lòng nhưng chúng ta phải chấp nhận với điều đó,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00435,mở ra mà thấy vậy chắc tao sợ quá mà chết luôn mất :),Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00436,ai làm được cây cầu khó đi này tài quá,Surprise,Other,Other,Surprise,1,Enjoyment,Other,Enjoyment,0
+test_00437,tình anh em thật đáng khâm phục 😍😍😍,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00438,xàm bà cố luôn ??????,Disgust,Disgust,Enjoyment,Sadness,1,Enjoyment,Disgust,Other,1
+test_00439,chuẩn bị đón chờ mùa nhiệt miệng lưỡi :v,Other,Enjoyment,Other,Enjoyment,1,Enjoyment,Other,Enjoyment,1
+test_00440,per lần sau hãy hưởng ứng câu chuyện của tao như này này,Other,Enjoyment,Other,Enjoyment,1,Enjoyment,Sadness,Enjoyment,0
+test_00441,các cháu giờ lợi hại quá :<,Enjoyment,Enjoyment,Other,Sadness,1,Enjoyment,Enjoyment,Sadness,2
+test_00442,bất công,Disgust,Surprise,Surprise,Other,0,Other,Other,Sadness,0
+test_00443,chưa bao giờ nghe ngươ ̀ i ta chửi thề mà đáng êu đến vậy lun =))!,Enjoyment,Disgust,Disgust,Sadness,0,Sadness,Sadness,Other,0
+test_00444,ghi nguồn vào page ạ :),Other,Disgust,Disgust,Disgust,0,Disgust,Disgust,Disgust,0
+test_00445,mấy đứa thấy mình hiền nó làm tới hà .. quá đáng lắm luôn á !,Anger,Sadness,Other,Enjoyment,0,Enjoyment,Sadness,Disgust,0
+test_00446,mày dek làm được ghen ak,Disgust,Disgust,Disgust,Enjoyment,2,Enjoyment,Disgust,Enjoyment,1
+test_00447,không đấm vào mặt là may rồi :)),Disgust,Other,Other,Other,0,Enjoyment,Disgust,Other,1
+test_00448,chưa bao giờ bắn trúng thứ gì 😆.,Enjoyment,Other,Sadness,Other,0,Other,Other,Sadness,0
+test_00449,chuẩn rồi per dù mệt mỏi nhưng vẫn vui :))),Other,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00450,thả mẹ tay ra :vậy đằng nào em kia cũng không sống nổi 😅,Other,Other,Other,Other,3,Other,Other,Other,3
+test_00451,không có bạn trai ... thì giận ai 😑😑,Sadness,Other,Other,Other,0,Enjoyment,Sadness,Sadness,2
+test_00452,năm xưa mày cũng ôm gối đứng cửa phòng c như này này per 🤣🤣🤣,Enjoyment,Other,Enjoyment,Fear,1,Surprise,Sadness,Surprise,0
+test_00453,bác bảo vệ như lồn,Disgust,Disgust,Sadness,Other,1,Disgust,Disgust,Anger,2
+test_00454,dell hiểu sao ngày sưa tao có thể cầm nó trưen tay đi câu cá 😳😳😳 nhớ lại vẫn thấy ớn 😂,Fear,Enjoyment,Sadness,Sadness,0,Sadness,Enjoyment,Enjoyment,0
+test_00455,đạp xe xíu rã chân ông này đạp như tay đua xe,Enjoyment,Disgust,Disgust,Fear,0,Other,Fear,Fear,0
+test_00456,ơ thế sai chỗ mẹ nào nữa ??,Surprise,Disgust,Disgust,Surprise,1,Surprise,Anger,Surprise,2
+test_00457,bọn sống thất đức không có tâm chưa nói tới tầm ! bảo sao tâm hồn trẻ trí tuệ kém phát triển ảnh hưởng tới thể chất cũng như tâm sinh lí trong tương lai,Disgust,Disgust,Other,Fear,1,Disgust,Anger,Disgust,2
+test_00458,"cũng nhờ thầy khắt khe uốn nén bỏ thói hư tật xấu , bây giờ mỗi lần họp lớp đều nhắc tới thầy và vô cùng kính trọng",Enjoyment,Disgust,Disgust,Disgust,0,Disgust,Anger,Disgust,0
+test_00459,ừm ngồi đất đỡ mỏi châm,Other,Enjoyment,Disgust,Enjoyment,0,Disgust,Enjoyment,Other,1
+test_00460,có đứa nào vừa coi vừa nuốt nước miếng như tao không ?,Enjoyment,Other,Other,Fear,0,Other,Other,Other,0
+test_00461,tư duy của họ hơn hẳn 1 cái đầu 👍,Enjoyment,Enjoyment,Other,Other,1,Enjoyment,Enjoyment,Enjoyment,3
+test_00462,"cấp 1 hiền lành ít nói , ngồi gần 1 cô bé cái gì cũng nhường cô ấy , nhường đến mức nhường luôn tập sách , để bà già phải dẫn ra nhà nó lấy lại ! 😂😂😂",Enjoyment,Disgust,Disgust,Anger,0,Disgust,Other,Disgust,0
+test_00463,ngu nhất năm,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00464,kiểu em sai rồi . a xin lỗi em đi 😂😂,Enjoyment,Sadness,Enjoyment,Sadness,1,Enjoyment,Enjoyment,Enjoyment,3
+test_00465,chỉ mong ông trời sẽ bù đắp cho con cháu của họ sau này 😔😔,Sadness,Other,Other,Other,0,Enjoyment,Other,Other,0
+test_00466,bà mẹ nó giật mình,Fear,Anger,Sadness,Anger,0,Anger,Fear,Fear,2
+test_00467,chỉ có bọn óc chó . đú đởn mới phàn nàn .,Other,Disgust,Disgust,Anger,0,Disgust,Disgust,Disgust,0
+test_00468,chưa 1 lần vấn vương thời c3 =)),Other,Enjoyment,Other,Other,2,Sadness,Surprise,Other,1
+test_00469,"em đỗ 6 trường đại học ở mỹ , còn hàng trăm thằng đổ em luôn rồi đó , em biết không . trong đó có anh 🤪",Enjoyment,Disgust,Disgust,Sadness,0,Sadness,Disgust,Enjoyment,1
+test_00470,nên xử lý nghiêm khắc,Other,Enjoyment,Enjoyment,Disgust,0,Other,Disgust,Enjoyment,1
+test_00471,cười đau bụng :))),Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00472,nghe cái lời rõ đéo hỉu và cái tên cũg không liên quan,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Other,2
+test_00473,giỡn ngu kiểu đó người ta bị tim giật mình chết rồi sao . giỡn với mình kiểu đó mình đánh cho vỡ mồm luôn,Anger,Anger,Disgust,Sadness,1,Disgust,Anger,Anger,2
+test_00474,kiên nhẫn với 1 con chó chứ chắc gì đã kiên nhẫn với bố mẹ hay người thân bên cạnh mình .,Disgust,Sadness,Enjoyment,Disgust,1,Sadness,Disgust,Sadness,1
+test_00475,cứ tưởng là người yêu =)),Enjoyment,Enjoyment,Enjoyment,Other,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00476,đẹp trai quá ak,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Surprise,Enjoyment,Surprise,1
+test_00477,làm ơn đi .. đừng bám theo tao nua được không,Anger,Other,Disgust,Enjoyment,0,Other,Disgust,Enjoyment,0
+test_00478,aii may mắn thì có vị ngọt còn aii thiếu may mắn thì họ chỉ toàn gặp những vị cay vị đắng của đờii :)),Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00479,thằng đoạn cuối mặc áo hồng đang định gải đít nhưng vì thấy rắn nên anh ấy đã hết ngứa,Enjoyment,Enjoyment,Other,Enjoyment,2,Sadness,Disgust,Sadness,0
+test_00480,"eo ôi thằng nhóc áo xanh cuối cùng , sao này lớn lên chắc là sói ca haha",Enjoyment,Surprise,Disgust,Enjoyment,1,Enjoyment,Other,Enjoyment,2
+test_00481,đã dâm tâm còn biến thái 🤢,Disgust,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Disgust,Disgust,2
+test_00482,rất ghét bọn trộm cắp,Disgust,Disgust,Disgust,Disgust,3,Disgust,Anger,Disgust,2
+test_00483,nhìn mặt đã thấy đóng vai ác rồi,Disgust,Disgust,Enjoyment,Sadness,1,Sadness,Disgust,Disgust,2
+test_00484,per coi chừng bị vậy nha chưa haha,Enjoyment,Fear,Enjoyment,Enjoyment,2,Other,Enjoyment,Enjoyment,2
+test_00485,đây là đâu ? cái này là như nào thế ??,Other,Other,Surprise,Surprise,1,Surprise,Surprise,Surprise,0
+test_00486,tuổi thơ thật đáng yêu . chỉ có người lớn dẫn sai đường các em thôi,Other,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00487,thua cả người ta 😞,Sadness,Sadness,Disgust,Sadness,2,Sadness,Disgust,Disgust,1
+test_00488,"per , nhơ cai thời sv ở tro , :)",Enjoyment,Fear,Enjoyment,Enjoyment,2,Enjoyment,Enjoyment,Other,2
+test_00489,ông lão cục súc,Disgust,Enjoyment,Surprise,Disgust,1,Disgust,Disgust,Disgust,3
+test_00490,"công khai và phạt thật nặng : đuổi học , cấm thi 10 năm",Anger,Enjoyment,Disgust,Other,0,Enjoyment,Enjoyment,Other,0
+test_00491,cưng ghê ❤️,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00492,"vị nước mắt , dù cảm xúc như nào thì khi có nó cũng thật đáng nhớ !",Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00493,mặt nhỏ dễ thương vãi =)),Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00494,thích mấy đứa này,Enjoyment,Other,Other,Enjoyment,1,Surprise,Enjoyment,Other,1
+test_00495,đầu độc trẻ em mà sử như vậy là nhẹ quá chuyển công tác ra khỏi nghành,Disgust,Sadness,Disgust,Sadness,1,Sadness,Disgust,Sadness,1
+test_00496,mày xinh thế ? tao ốm tí đã xấu hoắc,Sadness,Enjoyment,Disgust,Anger,0,Enjoyment,Other,Surprise,0
+test_00497,xịt nước là ướt rồi,Other,Sadness,Other,Other,2,Sadness,Other,Sadness,1
+test_00498,hy vọng sẽ mau tìm được anh người yêu thật tốt để 5 năm sau có một gia đình như vậy ❤️❤️,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00499,mới ngày nào bidv còn đứng nhất mà .. haizzz,Sadness,Sadness,Disgust,Sadness,2,Sadness,Enjoyment,Sadness,2
+test_00500,chỉ là bạn chưa biết yêu đúng cách thoiii,Other,Enjoyment,Other,Enjoyment,1,Enjoyment,Enjoyment,Other,1
+test_00501,cái ảnh giống hệt mình :)),Other,Enjoyment,Enjoyment,Surprise,0,Surprise,Enjoyment,Enjoyment,0
+test_00502,"thời gian thấm nhuần yêu thương , nếu đủ kiên nhẫn thì hạnh phúc sẽ đến bên , không sợ sệt 😁",Other,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00503,nhất định sẽ làm được,Other,Sadness,Disgust,Fear,0,Sadness,Other,Other,2
+test_00504,"câu nói "" ngu thì chết chứ bệnh tật gì "" tao thấy chính xác rồi đây ! dume thiệt hại tài sản còn bị phạt nữa . ngu vãi",Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00505,dòm sợ thiệt 🤐,Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00506,"nhìn một cái rồi thôi , chuyện của những năm trước",Sadness,Sadness,Sadness,Sadness,3,Sadness,Enjoyment,Sadness,2
+test_00507,khiêp vãi,Disgust,Fear,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Disgust,1
+test_00508,bạn trai người khác không bao giờ làm tao thất vọng =))))),Enjoyment,Sadness,Other,Sadness,0,Other,Disgust,Sadness,0
+test_00509,per =)))))))))))) tao cười không biết chỗ nín lun,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00510,là do mày quá ảo tưởng,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00511,"dễ thương ghê =)) nói y như mấy ông ngồi nhậu trong bàn v "" đúng không "" "" đúng chưa "" "" vui rầu "" =)))",Enjoyment,Enjoyment,Other,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00512,mình rất rất muốn đi nhưng trong túi kô còn xu mẹ nào vân kiều ơi,Sadness,Enjoyment,Other,Fear,0,Sadness,Sadness,Other,2
+test_00513,khi bạn muốn lầy và cũng có người lầy cùng bạn =)),Enjoyment,Other,Other,Other,0,Other,Other,Other,0
+test_00514,"hay vãi ra , ai đi qua kiểu gì cũng phải đọc và mỉm cười , đánh mạnh vào tâm lý :))",Enjoyment,Enjoyment,Disgust,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00515,"thời chúng ta , đồ hỏng thì mua mới còn thời ông bà , đồ hỏng thì đem đi sửa . đó là lý do vì sao tình yêu của họ luôn bền lâu ....",Other,Disgust,Other,Other,2,Disgust,Disgust,Disgust,0
+test_00516,"mai tao ăn gà , chụp hình bình luận lại cho mày thèm chơi ??",Enjoyment,Enjoyment,Disgust,Anger,1,Anger,Enjoyment,Anger,1
+test_00517,làm bạn với mấy thể loại này cũng nhục cả người,Disgust,Disgust,Disgust,Disgust,3,Other,Other,Disgust,1
+test_00518,thật vậy luôn sao per ?,Surprise,Surprise,Surprise,Surprise,3,Surprise,Surprise,Surprise,3
+test_00519,"tao vừa về xong thề là ở mẹ nhà ngủ còn sướng hơn đông đéo thể nhích nổi , toàn ngắm người ??",Disgust,Disgust,Disgust,Enjoyment,2,Disgust,Disgust,Fear,2
+test_00520,ức chế lắm cụ ạ . đi trong phố cổ còn chưa dừng hẳn đã bị gõ cửa xua đi .,Anger,Anger,Disgust,Fear,1,Anger,Anger,Enjoyment,2
+test_00521,"tội nghiệp , có rất nhiều em ở nông thôn bị như vậy 😢.",Sadness,Sadness,Sadness,Sadness,3,Sadness,Enjoyment,Sadness,2
+test_00522,"chuẩn luôn , áp lực công việc cũng không bằng mối quan hệ với đồng nghiệp",Enjoyment,Anger,Enjoyment,Fear,1,Enjoyment,Other,Enjoyment,2
+test_00523,mé bọn trẻ bây giờ,Disgust,Anger,Disgust,Anger,1,Disgust,Disgust,Disgust,3
+test_00524,rụng cả răng khi xem không nhặt được mồm kkk,Enjoyment,Sadness,Sadness,Other,0,Fear,Disgust,Sadness,0
+test_00525,"1 con giáo viên ngu + vài đứa lớn đầu tập làm người lớn nhưng bất thành = dạy ra 1 lũ học sinh mất dậy , 1 lũ đầu bò",Disgust,Anger,Disgust,Disgust,2,Anger,Anger,Disgust,1
+test_00526,những video như này chỉ khiến cho các cô gái càng thêm ảo tưởng về tình yêu thôi =))) # ngưngảotưởng,Other,Disgust,Other,Disgust,1,Enjoyment,Disgust,Disgust,0
+test_00527,mong là có bảo hiểm,Other,Other,Enjoyment,Other,2,Enjoyment,Other,Enjoyment,1
+test_00528,nếu 1 ngày per theo thằng khác và per cũng có bỏ bạn mà đi thôi huhu,Sadness,Other,Other,Sadness,1,Other,Other,Sadness,1
+test_00529,cay đắng ngọt bùi . nhưng cay đắng thì thường nhiều hơn =)),Other,Sadness,Disgust,Sadness,0,Sadness,Other,Sadness,1
+test_00530,tình yêu cha mẹ dành cho con cái là vô điều kiện . mình đã khóc,Sadness,Enjoyment,Disgust,Enjoyment,0,Enjoyment,Disgust,Enjoyment,0
+test_00531,"đúng rồi , kiên trì thêm một chút nữa đi ! :v",Enjoyment,Sadness,Enjoyment,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00532,hên crush nay ăn chơi lành mạnh,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00533,đau đớn hơn còn là khi làm bạn cũng khó và gặp nhau coi như người dưng nước lã,Sadness,Sadness,Other,Sadness,2,Sadness,Disgust,Sadness,2
+test_00534,cách xử lý thông minh,Enjoyment,Enjoyment,Disgust,Disgust,1,Enjoyment,Disgust,Disgust,1
+test_00535,"per mai cấm chọc tao cười nhé dume , tao mà không pass probation là do mày đấy =))",Other,Enjoyment,Enjoyment,Anger,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00536,trong phim này thấy cái thằng anh hùng đạp xa đạp phế vkl,Disgust,Disgust,Disgust,Fear,2,Disgust,Enjoyment,Disgust,2
+test_00537,per sắp bị đuổi khỏi trường rồi nhé 😉😉,Other,Other,Other,Other,3,Other,Other,Other,3
+test_00538,không biết luôn á,Surprise,Other,Surprise,Surprise,2,Surprise,Surprise,Sadness,2
+test_00539,tao tát cho bây giờ đấy,Anger,Anger,Sadness,Sadness,1,Sadness,Anger,Anger,2
+test_00540,tao thề tao rất sợ ma quỷ nên tao rất không dám xem phim,Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00541,điều tồi tệ nhất là kiểm tra code trên giấy .,Sadness,Sadness,Other,Enjoyment,1,Disgust,Disgust,Enjoyment,0
+test_00542,"thay vì gà chuyển sang ăn lợn , tao cungc thế nên món khoái khẩu là gà chuyển sang sườn mày ạ",Other,Other,Other,Disgust,2,Sadness,Sadness,Anger,0
+test_00543,ta sao khúc cuối cậu bé xịt nói chuyện hoa làm gì vậy,Other,Other,Other,Other,3,Surprise,Other,Sadness,1
+test_00544,t được theo mẹ ra đây những 3 lần :v . uống no nước biển đs . phải công nhận nói chuyện biển đục vãi 🙄,Disgust,Enjoyment,Enjoyment,Enjoyment,0,Sadness,Enjoyment,Enjoyment,0
+test_00545,đm mùi thế :))),Disgust,Anger,Disgust,Enjoyment,1,Disgust,Enjoyment,Enjoyment,1
+test_00546,per của anh tao chứ anh mày à ??,Other,Enjoyment,Other,Other,2,Other,Other,Surprise,2
+test_00547,mày tưởng ai cũng khùng giống mày hả lo xo dau,Disgust,Disgust,Disgust,Surprise,2,Surprise,Surprise,Surprise,0
+test_00548,"per nam dân trí thấp , ý thức như ruồi là hợp lí .",Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Enjoyment,2
+test_00549,họ không cho ta là vì họ không có gì hihiiii,Enjoyment,Other,Other,Other,0,Sadness,Other,Other,0
+test_00550,14 / 2 năm sau tau sẽ là ông già cô đơn ....,Sadness,Enjoyment,Other,Other,0,Enjoyment,Other,Other,0
+test_00551,gì thế này ? này là kiến thức đó hả ?,Surprise,Surprise,Surprise,Surprise,3,Surprise,Surprise,Surprise,3
+test_00552,dume xem đi xem lại vẫn đéo thể nhịn được cười :v,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00553,"trong 1 lần tao được mẹ cho về quê ngoại , nó nhìn tao - tao nhìn nó - và dume đầu tao chôm bôm . cđ đó dữ vãi ! sao nó không đi thi đai đen cấp quốc gia cmnl đi chứ võ công cao cường như vậy mà ở vùng qê hẻo lánh thì thật là phí của giời !!!!",Disgust,Anger,Disgust,Fear,1,Enjoyment,Fear,Fear,0
+test_00554,còn nhỏ mà đã như thế này lớn lên ai chịu được yêu chết đi được,Enjoyment,Enjoyment,Disgust,Enjoyment,2,Enjoyment,Disgust,Enjoyment,2
+test_00555,cậu lái xe nói chưa thấy sai gì . ?? đỗ dưới đường chứ có đỗ vào phòng khách nhà mình đâu mà kêu .,Other,Anger,Disgust,Disgust,0,Disgust,Anger,Anger,0
+test_00556,"khóc không chịu được luôn , và mình cũng sẽ làm được nếu phải đánh đổi tính mạng cho 2 cô con gái bé nhỏ của gia đình mình",Sadness,Sadness,Other,Sadness,2,Sadness,Sadness,Sadness,3
+test_00557,"per bảo nó nói chuyện đi nhưng không , chỉ nhìn thôi",Other,Sadness,Other,Other,2,Other,Other,Other,3
+test_00558,per đợi rụng răng rồi anh tặng quà cho em luôn háy . hhha,Enjoyment,Sadness,Sadness,Enjoyment,1,Enjoyment,Sadness,Enjoyment,2
+test_00559,"per giờ đi ra chỗ ăn phở cũng khó , đi bộ cũng chả chen được ??",Other,Disgust,Disgust,Anger,0,Other,Fear,Other,2
+test_00560,mấy thèn cức rảnh,Disgust,Disgust,Disgust,Enjoyment,2,Disgust,Other,Other,1
+test_00561,"giun xào tỏi , đỉa xào lăn , cứt nấu đông , hỉ mũi rang cơm trộn với đờm , tởm vãi",Disgust,Disgust,Disgust,Enjoyment,2,Disgust,Anger,Enjoyment,1
+test_00562,và từ đó bà cụ sống trong hạnh phúc :)),Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00563,"video mờ thế còn xác minh được , thế còn lão per đến giờ vẫn im lặng là sao ? 🙂",Surprise,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Surprise,Enjoyment,1
+test_00564,"lúc nhỏ mẹ nấu cơm bằng bếp củi , ttao thì không biết gì thấy lửa tắt thì chụm vô : )) mẹ ra quánh cho trận vì nồi cơm khét nghẹt 😑",Sadness,Disgust,Disgust,Disgust,0,Disgust,Sadness,Sadness,2
+test_00565,đm thằng mập mặt thoả mãn vãi . lần đầu tiên thấy con gái ah,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00566,"dm lùi xuống rồi viết , suy ra là bạn để mất người ta là do bạn ngu chứ đéo phải đổ thừa cho cái gì",Disgust,Anger,Disgust,Anger,1,Disgust,Anger,Anger,1
+test_00567,bình dị vậy thôi .. mà sao mãi tao chưa tìm được ? hix,Sadness,Surprise,Other,Surprise,0,Surprise,Surprise,Surprise,0
+test_00568,tao thấy tai nạn giao thông là tao nói với mẹ .. con chạy ra đó để tối lên ti vi ... mẹ tao chửi sấp mặt luôn,Sadness,Anger,Anger,Fear,0,Anger,Fear,Anger,0
+test_00569,đúng kiểu đến mùa động dục . khác gì động vật bậc thấp không,Disgust,Anger,Disgust,Anger,1,Disgust,Disgust,Anger,2
+test_00570,"cười đấy , sau lưng nó đâm con mẹ nó dao vô hình cho chết mà vẫn sống nhăn răng luôn .",Fear,Anger,Disgust,Anger,0,Disgust,Anger,Enjoyment,0
+test_00571,"toan cao lại nữa , tao dg suy nghĩ có nên đi bằng grap về không",Other,Other,Other,Other,3,Other,Enjoyment,Sadness,1
+test_00572,bày đặt viết trên cát khắc luôn vào đá cho tạt thoải mái,Enjoyment,Anger,Disgust,Fear,0,Enjoyment,Enjoyment,Other,2
+test_00573,"bài nhạc đầu tiên là nhạc phim gì nhỉ ? mình quên tên phim rồi , xin hỏi có ai biết không ạ",Other,Other,Enjoyment,Other,2,Enjoyment,Other,Sadness,1
+test_00574,hn đéo có đâu nhé . dăm ba cái thứ y đg vớ vẩn :)),Disgust,Disgust,Disgust,Anger,2,Disgust,Anger,Disgust,2
+test_00575,"các cháu thật tốt , hãy thương yêu mọi người và cả loài vật nhé , may mắn và niềm vui sẽ đến với các cháu .",Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Other,2
+test_00576,cảm động vleu haha,Enjoyment,Enjoyment,Sadness,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00577,"cảm thấy thay được thì thay , giáo viên bây giờ thừa nhiều mà",Anger,Sadness,Sadness,Sadness,0,Other,Other,Other,0
+test_00578,nghe mãi mà vẫn thấy hay,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00579,mèo nhà tao cũng từng đi lạc vì bị chó rượt tưởng mất rồi . sau mấy tháng thấy nó trở về nhà mừng vãi 😁,Enjoyment,Disgust,Disgust,Fear,0,Sadness,Fear,Enjoyment,1
+test_00580,vẫn xinh đẹp dịu dàng trong mắt tao 😂,Enjoyment,Surprise,Enjoyment,Enjoyment,2,Enjoyment,Surprise,Enjoyment,2
+test_00581,thấy per hất môg thằg đó bay hài lòng dễ sợ,Enjoyment,Enjoyment,Fear,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00582,"anh sau đó , không còn là anh nữa ...",Sadness,Sadness,Other,Other,1,Sadness,Other,Other,1
+test_00583,cả đời mình chỉ ước có 500tr trả nợ ngân hàng cái xe để chạy kiếm ăn ...😥😥😥,Sadness,Other,Enjoyment,Other,0,Sadness,Enjoyment,Enjoyment,1
+test_00584,cố gắng chứ từ bỏ con cặc gì,Disgust,Other,Disgust,Other,1,Sadness,Disgust,Other,1
+test_00585,ký ức 1 thời . nhớ,Enjoyment,Anger,Other,Surprise,0,Other,Enjoyment,Disgust,1
+test_00586,gia tộc bất hạnh :vậy,Disgust,Sadness,Enjoyment,Enjoyment,0,Other,Enjoyment,Sadness,0
+test_00587,vì lợi nhuận con người ta có thể độc ác với nhau như vậy sao ???,Disgust,Disgust,Other,Disgust,2,Other,Disgust,Disgust,2
+test_00588,thương anh bạn kia quá .,Enjoyment,Enjoyment,Enjoyment,Sadness,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00589,nhìn muốn tè ra quần rồi,Fear,Sadness,Sadness,Other,0,Sadness,Fear,Enjoyment,1
+test_00590,nhìn dơ vãi dume :v,Disgust,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Disgust,Enjoyment,1
+test_00591,tao cũng ăn hại nhưng chưa bao giờ ăn hại đến nỗi phí phạm thế,Disgust,Sadness,Sadness,Sadness,0,Sadness,Sadness,Sadness,0
+test_00592,sao mày không ngủ với mẹ mày luôn,Other,Surprise,Other,Other,2,Surprise,Anger,Anger,0
+test_00593,phần này dù xem lại 100 lần vẫn bật khóc tình cha thật phi thường,Sadness,Sadness,Enjoyment,Enjoyment,1,Enjoyment,Enjoyment,Sadness,1
+test_00594,ăn xong mất hứng đéo nói nữa,Anger,Anger,Disgust,Anger,2,Anger,Anger,Disgust,2
+test_00595,"chả có gì hay ho , vô bổ",Disgust,Disgust,Disgust,Disgust,3,Other,Disgust,Other,1
+test_00596,nhìn giống hai anh đang tỉnh tò với nhau ghê ( mình là hủ đừng ném đá nha 😅😅😅),Enjoyment,Enjoyment,Other,Fear,1,Enjoyment,Other,Other,1
+test_00597,buồn nhỉ 😴😴😴,Sadness,Sadness,Sadness,Sadness,3,Enjoyment,Sadness,Enjoyment,1
+test_00598,toàn lũ thất đức,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00599,per thế đéo nào mình chơi với toàn gái mà tính vẫn giống con trai . _ .,Sadness,Enjoyment,Other,Enjoyment,0,Anger,Enjoyment,Disgust,0
+test_00600,cuộc sống của mình đừng hỏi ý kiến người khác,Other,Other,Other,Other,3,Other,Other,Other,3
+test_00601,mấy thằng mặt địt . chim chưa mọc đủ lông mà lông đã ăn vào tận não chúng mày rồi . đm chúng mày,Anger,Disgust,Disgust,Anger,1,Anger,Disgust,Anger,2
+test_00602,bà về nơi phương xa mất rồi . nhưng với tớ bà là người dễ thương nhất trên đời . chỉ muốn ngả vào lòng ngoại nghe kể về những câu chuyện cổ 😘,Sadness,Sadness,Enjoyment,Sadness,2,Sadness,Sadness,Enjoyment,2
+test_00603,"vui vẻ chút , lạc quan chút cho đời thêm vui cũng là một cách 😂😂",Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00604,hài vãi :))),Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00605,còn gì đau đớn hơn cảnh này :(((,Sadness,Sadness,Disgust,Sadness,2,Sadness,Disgust,Sadness,2
+test_00606,"yep . chính tao . đi vệ sinh thôi cũng phải đảo qua , mà giờ thì người ta sắp đi lấy chồng rồi",Sadness,Disgust,Disgust,Enjoyment,0,Enjoyment,Anger,Enjoyment,0
+test_00607,còn mình nhìn như thằng ngu,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Disgust,2
+test_00608,thay đổi văn hóa tí đi . đường là tài sản chung của mọi người dân . và mọi người dân được phép làm những gì pháp luật không cấm .,Other,Disgust,Other,Disgust,1,Other,Disgust,Disgust,1
+test_00609,ai thấy pha cuối phê vãi không,Enjoyment,Enjoyment,Sadness,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00610,tội em gái đó,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00611,đứa nào nhây hơn đứa đấy thắng,Other,Disgust,Other,Other,2,Disgust,Other,Other,2
+test_00612,hahah thú vị ghê hen,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00613,ngã nhìn cũng thấy yêu 🤣,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00614,hồi bé tôi cũng bị chửi cả ngày từ sáng chí tối ! nhưng không phải bố tôi mà là bà nội tôi !,Sadness,Sadness,Sadness,Fear,2,Sadness,Fear,Enjoyment,1
+test_00615,cung quá ak,Enjoyment,Enjoyment,Surprise,Surprise,1,Enjoyment,Surprise,Enjoyment,2
+test_00616,mày xinh ghê vậy :d,Enjoyment,Enjoyment,Disgust,Enjoyment,2,Enjoyment,Enjoyment,Surprise,2
+test_00617,"thương các bác quá , vất vả 10 năm trời mà bị như vậy 😭",Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00618,hên là đụng nhầm người chứ đụng trúng cái là rụng trứng cả bày cả lũ -)),Enjoyment,Anger,Disgust,Disgust,0,Other,Other,Disgust,0
+test_00619,đau ghê,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Fear,2
+test_00620,khúc mắc cười đoạn nào vậy 😑,Disgust,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Surprise,Enjoyment,0
+test_00621,đếm không hết nên nó vương nó vãi ấy mà,Other,Fear,Other,Disgust,1,Sadness,Disgust,Other,1
+test_00622,1 hình này thấy từ sáng đến giờ trên mấy page rồi 😑😑,Other,Other,Other,Enjoyment,2,Enjoyment,Disgust,Other,1
+test_00623,mày ăn xong thì cút luôn dùm nha 🙂,Anger,Anger,Disgust,Anger,2,Anger,Anger,Anger,3
+test_00624,thôi thì giả tạo đến phút chót cho tròn chữ hãm lồn,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00625,con bé bị quơ trúng nhìn đẹp như búp bê ấy < 3,Enjoyment,Disgust,Enjoyment,Enjoyment,2,Sadness,Enjoyment,Enjoyment,2
+test_00626,bạn không có lỗi sinh ra trong nghèo khó nhưng nếu chết trong nghèo khó thì đó là lỗi của bạn,Other,Disgust,Other,Disgust,1,Disgust,Other,Disgust,1
+test_00627,"lỗi tổng hợp . đường bộ mà nằm sát đường sắt , còn ông tài xế thì đậu xe cẩu thả .",Disgust,Anger,Disgust,Disgust,2,Disgust,Disgust,Disgust,3
+test_00628,phim kinh dị vào cái trời âm u 😒,Fear,Disgust,Enjoyment,Disgust,0,Disgust,Anger,Disgust,0
+test_00629,crush đéo bị thịt nhé :d nó cũng ế vãi vì tội chảnh chóa,Anger,Sadness,Disgust,Sadness,0,Disgust,Disgust,Sadness,0
+test_00630,tự nhiên coi tới khúc th bé kéo hết bạn bè tới chụp hình tao buồn cười vãi ! ông kia nghĩ ! thôi chết mẹ rồi ! kiểu này tối mới lau xong 😂,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00631,bếp dầu thời bao cấp cùng thời đôt đèn dầu,Other,Other,Other,Other,3,Other,Other,Other,3
+test_00632,mình nghĩ đợt này bà per thua rồi . đuối lý lẫn truyền thông yếu,Sadness,Sadness,Other,Sadness,2,Other,Other,Other,0
+test_00633,bọn trẻ trung quốc thời nay ăn gì mà cao thế nhỉ,Surprise,Anger,Anger,Anger,0,Anger,Surprise,Anger,1
+test_00634,"fa lâu năm có biết 14 / 2 hay 15 / 2 là ngày gì đâu , chỉ biết là ngày đi làm về và rất mệt",Sadness,Sadness,Enjoyment,Enjoyment,1,Enjoyment,Enjoyment,Sadness,1
+test_00635,kinh quá . đau lắm đây . mà nhìn nổi hết da gà ra .,Disgust,Sadness,Disgust,Fear,1,Sadness,Fear,Fear,0
+test_00636,t đang thắc mắc là 2 thằng kia đéo hỏi thằng per à 🤔,Other,Disgust,Disgust,Disgust,0,Other,Other,Disgust,2
+test_00637,nhìn đoạn ổng tránh nó cắn mà nhảy tưng tưng rất chi là điệu nghệ và mang trong đó cả sự tấu hài nữa 🤣🤣,Enjoyment,Other,Other,Disgust,0,Disgust,Fear,Enjoyment,1
+test_00638,"đừng để râu , móng tay cắt gọn gàng . nếu mà thơm nữa thì 8d chuẩn mẹ rồi",Other,Disgust,Disgust,Fear,0,Disgust,Disgust,Disgust,0
+test_00639,"hôm nào đi học về cũng phải đi qa , nhà nuôi lũ này ở đỉnh dốc , đi học về tới chân dốc thôi là nghe lũ quỷ đó đứng đầu dốc đón đường bọn tao rồi . méo đạp xe lên dốc nổi , dắt xe lên dốc mà muốn vứt mẹ cái xe đạp để chạy lấy thân cho rồi :((",Fear,Anger,Disgust,Anger,0,Anger,Anger,Anger,0
+test_00640,"công ty nào nhận bạn không quan trọng , quan trọng là ai giới thiệu bạn vào công ty 🤣🤣🤣🤣",Enjoyment,Other,Other,Other,0,Other,Other,Other,0
+test_00641,"đến cả khi nó nói thích mình , 1 phút sau nó lại nói chỉ trêu . mệt mỏi",Sadness,Enjoyment,Sadness,Disgust,1,Enjoyment,Enjoyment,Other,0
+test_00642,ây da 1 thời,Other,Disgust,Enjoyment,Enjoyment,0,Enjoyment,Surprise,Surprise,0
+test_00643,nhìn cái bản mặt bà ta mà ghét thay . tham vô độ . dân mình nhiều nhà dăn ba tỉ còn khó ....,Disgust,Disgust,Disgust,Disgust,3,Disgust,Disgust,Disgust,3
+test_00644,đỡ mua cuốn sổ 5 ngàn =)),Enjoyment,Enjoyment,Other,Enjoyment,2,Other,Other,Enjoyment,1
+test_00645,chỉ dân đen là khổ thôi . chả trách được họ khi cố gắng đi tìm may mắn ở nơi chùa chiền,Sadness,Sadness,Enjoyment,Enjoyment,1,Sadness,Other,Sadness,2
+test_00646,còn gì đau hơn,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00647,nó vẫn luôn hiện hữu xung quanh chúng ta . hãy dùng tình yêu thương đó và cho đi ❤,Enjoyment,Disgust,Enjoyment,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00648,3 idiots ! phim hay nhất mọi thời đại .,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00649,đi xa nó bắt cóc chết mẹ mày :),Disgust,Anger,Anger,Anger,0,Anger,Anger,Anger,0
+test_00650,ôi dume bọn súc vật,Disgust,Anger,Anger,Anger,0,Anger,Anger,Anger,0
+test_00651,xuất sắc . thật sự quá đỉnh .,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Surprise,Enjoyment,Enjoyment,2
+test_00652,đúng là yêu tới đầu bạc răng long .,Enjoyment,Enjoyment,Other,Other,1,Enjoyment,Enjoyment,Enjoyment,3
+test_00653,cho thằng khác ăn ốc bắt bố đổ vỏ à 🤣,Anger,Anger,Anger,Anger,3,Anger,Anger,Anger,3
+test_00654,"động lực là tình yêu , gia đình là nơi để về hihi",Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00655,đã thất tình xem pim này khóc cả đêm mất thôi mới đề mô mà đã khóc thút thít rồi chắc xem hết thì không biết pai làm sao ..,Sadness,Sadness,Sadness,Sadness,3,Sadness,Sadness,Sadness,3
+test_00656,"và sau mùa vải , tàn dư còn lại là những nốt mụn 😌😌😌",Sadness,Sadness,Other,Sadness,2,Sadness,Other,Enjoyment,1
+test_00657,mỗi lần coi lại sởn gai ốc,Fear,Enjoyment,Enjoyment,Fear,1,Enjoyment,Fear,Fear,2
+test_00658,con người giỏi nhỉ .,Surprise,Other,Disgust,Disgust,0,Disgust,Enjoyment,Surprise,1
+test_00659,sến đụ dễ sợ 😑,Disgust,Fear,Fear,Fear,0,Enjoyment,Enjoyment,Fear,0
+test_00660,tao muốn mèo nhà tao cũng tìm về được như này 😭,Sadness,Enjoyment,Fear,Enjoyment,0,Sadness,Fear,Other,1
+test_00661,"rãnh vãi , kiếm cái gì làm đi",Disgust,Disgust,Disgust,Fear,2,Disgust,Disgust,Disgust,3
+test_00662,per chuẩn . gọi công an cho lành . cãi cộ chẳng may sửng cồ lên không kìm được phang vào xe nó lại mệt ??,Disgust,Anger,Enjoyment,Enjoyment,0,Enjoyment,Enjoyment,Disgust,1
+test_00663,khi nào mình già rồi cũng như v nha per kkkkkkkkkk,Enjoyment,Sadness,Other,Enjoyment,1,Other,Sadness,Enjoyment,1
+test_00664,vl gần nhà,Other,Other,Enjoyment,Other,2,Enjoyment,Sadness,Other,1
+test_00665,cứu em nó với,Sadness,Other,Enjoyment,Other,0,Other,Sadness,Enjoyment,1
+test_00666,đụ mẹ ngu à :)) có thiếu chỗ đéo nào cho mày viết khôg,Disgust,Anger,Disgust,Anger,1,Anger,Anger,Anger,0
+test_00667,tao thì sợ nhất lúc nó mới cắt tóc,Fear,Fear,Fear,Fear,3,Fear,Fear,Fear,3
+test_00668,được cái công tác truyền thông tốt,Enjoyment,Enjoyment,Disgust,Enjoyment,2,Other,Disgust,Enjoyment,1
+test_00669,nhìn rợn vãi,Fear,Disgust,Enjoyment,Disgust,0,Disgust,Disgust,Disgust,0
+test_00670,đúng là ổng có vợ rồi có khác . không cần lấy áo làm tóc nữa mà có hẳn váy để mặc rồi 😂😂😂😂,Surprise,Disgust,Disgust,Disgust,0,Other,Disgust,Disgust,0
+test_00671,haha :))) nãy giờ mấy tiếng rồi mà các bác vẫn còn căng :))),Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Disgust,Enjoyment,Disgust,1
+test_00672,ngưỡng mộ ông bà á . ông bà đáng yêu ghê,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00673,thằng nào kiểu như này tao cho cạch mặt !!! đéo thích nữa 😂😂,Anger,Anger,Disgust,Disgust,1,Disgust,Anger,Anger,2
+test_00674,:)) mọi người bị sao thế ??? thích chơi với mấy đứa như vầy nè :)) hài hước đi chung cười sấp mặt luôn =)))) nhây nhây vầy mới zui chớ ? tự nhiên chửi con nhỏ thấy tội nghiệp 😡,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00675,giờ cắt bộ móng đi cái tay vẫn cứ bị phế khó mà phục hồi được,Sadness,Other,Other,Sadness,1,Other,Enjoyment,Sadness,1
+test_00676,per ông đó có đôi mắt đẹp ghê,Enjoyment,Enjoyment,Other,Enjoyment,2,Surprise,Enjoyment,Enjoyment,2
+test_00677,có vậy ông mới có công chuyện làm mà kiếm tiền còn la lối chửi mắng có tội nghe con .,Disgust,Sadness,Other,Sadness,0,Other,Sadness,Disgust,1
+test_00678,phim gì z .. thánh nữ nào cho biết cái chủ đề dới !!,Other,Disgust,Enjoyment,Disgust,0,Enjoyment,Enjoyment,Enjoyment,0
+test_00679,địt mẹ đời tao,Sadness,Anger,Disgust,Disgust,0,Other,Disgust,Anger,0
+test_00680,áp dụng ở việt nam cơ mà chỉ có ăn cái đầu mày .,Disgust,Disgust,Disgust,Disgust,3,Fear,Disgust,Disgust,2
+test_00681,nó cứ sai sai thế nào ấy,Other,Other,Other,Surprise,2,Disgust,Other,Surprise,1
+test_00682,còn chặt cả cây ổi của hàng xóm để lấy cái chạc làm súng đấy cứ,Enjoyment,Disgust,Other,Disgust,0,Disgust,Disgust,Disgust,0
+test_00683,chắc là uncrush thôi . bố mẹ thì còng lưng ra làm cho con đi học .,Sadness,Disgust,Anger,Sadness,1,Sadness,Disgust,Sadness,2
+test_00684,chúng mày cứ cười . dm mai gần đấy có biến lại thấy anh ấy trong bộ cảnh phục thì lại tung hô quả nằm vùng quá đẳng cấp 😂😂😂,Enjoyment,Enjoyment,Other,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00685,gửi nhầm video mình hát chế cho nó nghe,Other,Enjoyment,Enjoyment,Enjoyment,0,Enjoyment,Other,Enjoyment,1
+test_00686,tự nhiên mình xem và mỉm cười theo .,Enjoyment,Enjoyment,Enjoyment,Enjoyment,3,Enjoyment,Enjoyment,Enjoyment,3
+test_00687,bạn ăn cơm chưa ?,Other,Other,Disgust,Other,2,Enjoyment,Other,Other,2
+test_00688,lúc thì cuốc đất è cổ ra không có giun mà câu cá 😒,Sadness,Disgust,Disgust,Sadness,1,Disgust,Sadness,Disgust,1
+test_00689,các bác dẫn crush qua cây sữa nay mà hứng nước đái ve nha haha,Enjoyment,Enjoyment,Surprise,Enjoyment,2,Enjoyment,Enjoyment,Enjoyment,3
+test_00690,vợ chồng rồi mà trong sáng như này chỉ có trong phim nhỉ 😂,Surprise,Surprise,Other,Enjoyment,1,Fear,Other,Other,0
+test_00691,bep này vào binh dương dùng xuất,Other,Disgust,Other,Disgust,1,Disgust,Enjoyment,Disgust,0
+test_00692,đôi mắt đằm thắm vãi,Surprise,Sadness,Other,Other,0,Surprise,Anger,Disgust,1

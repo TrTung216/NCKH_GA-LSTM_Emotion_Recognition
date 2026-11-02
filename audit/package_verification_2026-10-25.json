@@ -1,0 +1,15 @@
+{
+  "original_workbooks_and_original_split_exports_byte_identical": 9,
+  "xlsx_csv_jsonl_and_label_mapping": "all 6927 rows agree",
+  "training_variant": "5547 rows, zero normalized text overlap with validation",
+  "evaluator_checks": [
+    "shuffled IDs align correctly with synthetic gold predictions",
+    "duplicate IDs rejected",
+    "missing IDs rejected",
+    "unknown labels rejected"
+  ],
+  "synthetic_checks_are_not_model_results": true,
+  "real_baseline_predictions": "686 unique validation IDs, metrics consistent",
+  "model_test_results": "not generated",
+  "ga_budget_arithmetic": "8+4*6=32; research specification, not executed"
+}

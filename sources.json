@@ -1,0 +1,33 @@
+{
+  "retrieved_on": "2026-10-04",
+  "official_dataset_page": "https://nlp.uit.edu.vn/datasets",
+  "official_folder": "https://drive.google.com/drive/folders/1HooABJyrddVGzll7fgkJ6VzkG_XuWfRu",
+  "paper": "https://arxiv.org/abs/1911.09339",
+  "variant": "official distributed normalized workbooks, filenames *_nor_811.xlsx",
+  "files": [
+    {
+      "split": "train",
+      "original_filename": "train_nor_811.xlsx",
+      "source_url": "https://drive.google.com/file/d/10VYzfK7JLg-vfmqH0UmKX62z_uaXU-Hp/view",
+      "download_url": "https://drive.google.com/uc?export=download&id=10VYzfK7JLg-vfmqH0UmKX62z_uaXU-Hp",
+      "size_bytes": 259335,
+      "sha256": "007cc58aa8cf4c38f2327be9a0c7711f4557d3978e5c88b819cf3b60eb21e0e5"
+    },
+    {
+      "split": "validation",
+      "original_filename": "valid_nor_811.xlsx",
+      "source_url": "https://drive.google.com/file/d/1EsSFZ94fj2yTvFKO6EyxM0wBRcG0s1KE/view",
+      "download_url": "https://drive.google.com/uc?export=download&id=1EsSFZ94fj2yTvFKO6EyxM0wBRcG0s1KE",
+      "size_bytes": 37978,
+      "sha256": "9b77b226980d0441868906b984023715ae1f0eaae39693065703d2ee639aa932"
+    },
+    {
+      "split": "test",
+      "original_filename": "test_nor_811.xlsx",
+      "source_url": "https://drive.google.com/file/d/1D16FCKKgJ0T6t2aSA3biWVwvD9fa4G9a/view",
+      "download_url": "https://drive.google.com/uc?export=download&id=1D16FCKKgJ0T6t2aSA3biWVwvD9fa4G9a",
+      "size_bytes": 37631,
+      "sha256": "4b105d41420d99b650d8d59ab37e77b0e458bb2417fc331c0fe337c0a2711cbb"
+    }
+  ]
+}

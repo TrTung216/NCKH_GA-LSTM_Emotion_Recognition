@@ -1,0 +1,11 @@
+# Actual versions used; xLSTM source is in vendor/.
+torch==2.5.1+cu121
+numpy==2.4.3
+pandas==3.0.2
+scikit-learn==1.8.0
+matplotlib==3.10.8
+sentencepiece==0.2.1
+einops==0.8.1
+omegaconf==2.3.0
+dacite==1.9.2
+antlr4-python3-runtime==4.9.3

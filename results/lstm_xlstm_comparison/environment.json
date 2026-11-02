@@ -1,0 +1,86 @@
+{
+  "started_utc": "2026-10-28T11:20:02.225754+00:00",
+  "python": "3.11.6",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+  "torch_cuda": "12.1",
+  "deterministic_algorithms": "warn_only",
+  "determinism_limit": "CUDA cumsum in official mLSTM is not deterministic in PyTorch 2.5.1; seeded reruns need not be bitwise identical.",
+  "precision": "float32",
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "numpy": "2.4.3",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "sentencepiece": "0.2.1",
+    "einops": "0.8.1"
+  },
+  "xlstm_source_commit": "ab22eadbd245f293dd8dec38ed29963d73758a12",
+  "xlstm_source_files_sha256": {
+    "xlstm\\__init__.py": "32ce9beac27da38dae9e65e7b3dfde8dc1e5725cfc9b8b08d7b4e47b81bd6472",
+    "xlstm\\blocks\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "xlstm\\blocks\\mlstm\\__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "xlstm\\blocks\\mlstm\\backends.py": "6fff15777a4c703db7657ed1a8220e5bb35de03cd179ad15c4154abcfa06521e",
+    "xlstm\\blocks\\mlstm\\block.py": "e3ea407e5444accf288326b3ebcf93b6aea23ac00ccd9dc84e6ec97e10d0d6ea",
+    "xlstm\\blocks\\mlstm\\cell.py": "552df10fa5349d5b56771edfcf2931561d5e734f57d2c46463eb74ce8fa40526",
+    "xlstm\\blocks\\mlstm\\layer.py": "c17901e25664f03100d231022e517399a324ce478a818c4b6781bba627ad6625",
+    "xlstm\\blocks\\slstm\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "xlstm\\blocks\\slstm\\block.py": "1b9a4f154f7e5daa4153151ba75bd62d2503bf8a19854cbe0f29da09778952fb",
+    "xlstm\\blocks\\slstm\\cell.py": "889340534578910a6b631ec7f5214aa22299f78fb28c67b3e514ac5bf5710350",
+    "xlstm\\blocks\\slstm\\layer.py": "a63ae229ba5d961599cc9ac35ff88550b34a1c4ee7732c1b1d609c43a750ddf6",
+    "xlstm\\blocks\\slstm\\src\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "xlstm\\blocks\\slstm\\src\\cuda_init.py": "05fbd50e026260bd4c47a0ed3dbbc7d40c3fb856168365a7272a4bcc7ceaad21",
+    "xlstm\\blocks\\slstm\\src\\vanilla\\__init__.py": "3aead96de1ea14830eea288f56e4570035d99ad91320d559deb33a7843cd50d2",
+    "xlstm\\blocks\\slstm\\src\\vanilla\\lstm.py": "73c92a25d0afdab7243fa860beecdb44d066aacc1189a5b787726db57e5ebe09",
+    "xlstm\\blocks\\slstm\\src\\vanilla\\slstm.py": "3bcd6660239fe391f35a8b70cd7a2dd90214ddbf64f85868e6dd8a4098c4a560",
+    "xlstm\\blocks\\xlstm_block.py": "2864f5cff00306b30f47f02d452d2d283e030270ebe5b6154a6f0910305f004a",
+    "xlstm\\components\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "xlstm\\components\\conv.py": "3f70852e0dede2fb17adfb9e168f05e971d6fc30b44dbc058387d6f5c07a1b34",
+    "xlstm\\components\\feedforward.py": "810df701d4f5b01ee906f9e09ee2970895940e46aeeb312feeeb4c8680c83f3e",
+    "xlstm\\components\\init.py": "ae06b2344be99cb1674f86105fa9b13c301c2f92f34ccaa4abb4fe2f8c599c75",
+    "xlstm\\components\\linear_headwise.py": "b3c47a124cbc1c4a32d853ccce3bb5c905e0d0636832bdd44a58e5d4fae3d37a",
+    "xlstm\\components\\ln.py": "9e14304221e3e877c504a268458f38057632a316c3a2bf2e11c60f3a3507c748",
+    "xlstm\\components\\util.py": "0974dc1b6f63bee59c7118e4f1bd7b0bcf620b24a88759654717c5ec1d446699",
+    "xlstm\\utils.py": "fbc8beb277d6236a62c165d515d3d590fe32e1397509d3336b1f079ba94f0171",
+    "xlstm\\xlstm_block_stack.py": "29437bd3ad072db144ff979331445deebe54098de2b9a6a111c6d7d76ad4c0c0",
+    "xlstm\\xlstm_large\\__init__.py": "e0c5987e11bbaa96f747d96a0acc6368fcf594b9583b51ad4315809decf71ea6",
+    "xlstm\\xlstm_large\\components.py": "fe433f383a4daa326d89c7bf8f20539acfe5872d7e50257ff7b6d45b3bbe5cfd",
+    "xlstm\\xlstm_large\\from_pretrained.py": "bfa9793425b6b73bb6fb73c608d8193883d1708204e3c233794f480ca3dbcce0",
+    "xlstm\\xlstm_large\\generate.py": "abf1f6f7801f2cbf39ec120f73bc3180b5976c8430604e9f7b8e8673432068bc",
+    "xlstm\\xlstm_large\\model.py": "19032c3f998940b3062e0ec209dcf72f1e5b5c0e30f2acc29ee250c8aa422b01",
+    "xlstm\\xlstm_large\\utils.py": "4bf9b8439c3d649130fb9181b9c6dd1972979c3f3347352d951f8ec62816dc26",
+    "xlstm\\xlstm_lm_model.py": "267b83f3b0f3bf84f77bf4e6c5fd21c459351973ffd8c2391bb2011084745c55"
+  },
+  "hashes": {
+    "data_variants/train_no_validation_overlap.csv": "fb95b6dc078202a6c5b4b27fcc2b749642642830d748319cff3d5dd3d2eb8961",
+    "data/validation.csv": "38c2868b26405a3f3a3d9936a4999c63c997a1c805e4cab3dc9b6adda3cd251f",
+    "data/test.csv": "4c7e7b3f8a24fcb5d64d166d726efac6a3cfc3c3b1bffd1dc4be95318ee6a42a"
+  },
+  "script_sha256": "e56371b470ab6bba19d92e2c954da390cbf280a3ccba3f14d25467257b0e8c6d",
+  "config_sha256": "ab811cad92f538382ab87c2ac13439acb42af3f8a6c7e970c2bd3d9382dd555d",
+  "tokenizer_sha256": "af6e30cbd15a2ca80d885aa01a774b79d73306c43e3dd06dfe55248a95625250",
+  "label_mapping_sha256": "08f8ae74a27c53e4dae827ec8c70847ff5113ad3eacc18ffbbf1c2486d949e64",
+  "tokenization": {
+    "train": {
+      "n_samples": 5547,
+      "truncated": 8,
+      "unknown_tokens": 0,
+      "tokens_before_truncation": 96208
+    },
+    "validation": {
+      "n_samples": 686,
+      "truncated": 0,
+      "unknown_tokens": 1,
+      "tokens_before_truncation": 12207
+    },
+    "test": {
+      "n_samples": 693,
+      "truncated": 0,
+      "unknown_tokens": 3,
+      "tokens_before_truncation": 12008
+    }
+  },
+  "actual_vocab_size": 2845,
+  "test_evaluated": true
+}

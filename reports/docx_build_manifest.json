@@ -1,0 +1,15 @@
+{
+  "docx": "reports\\Bao_cao_thuc_nghiem_LSTM_xLSTM_GA_UIT_VSMEC.docx",
+  "sha256": "cb3c1bc1b9fab5cab74f4929e61d615a6fe85b50805f3a1a64ec7fc009082854",
+  "source_sha256": {
+    "results\\lstm_xlstm_comparison\\summary_runs.csv": "f181c6a9c20eb0e28dddbcbeec34d86010a01b46793731bf19b9fb79893fac2f",
+    "results\\ga_lstm_xlstm_comparison\\comparison_mean_std.csv": "9bcee95669bcce2e467b0152627df3ce073f81edd0116010d9639df6f11ffb99",
+    "results\\ga_lstm_xlstm_comparison\\per_class_test.csv": "682b7dcd28df6b9186f6ac47def2e6d4f827aa9952a8c328ba2f18e1f8677ff5",
+    "results\\ga_lstm_xlstm_comparison\\costs.csv": "5a19c620ee928aa8f5693f444353dabc6e277f102f138f5abd8704dd62a6f97f",
+    "results\\ga_lstm_xlstm_comparison\\selected_configs.json": "d488c946aab2fdc20349cc59d1b56b33a453ec8010b8f5f57e8cf15f0a2029a1",
+    "reports\\analysis_evidence.json": "ef38c169a4b3ba55b94c54919495bcb044c6c612129223d0df68637f81471233"
+  },
+  "tables": 25,
+  "images": 3,
+  "paragraphs": 151
+}

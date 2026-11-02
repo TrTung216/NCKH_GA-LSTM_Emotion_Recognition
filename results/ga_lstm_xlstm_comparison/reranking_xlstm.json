@@ -1,0 +1,74 @@
+[
+  {
+    "trial_id": 14,
+    "genes": {
+      "embedding_dim": 128,
+      "num_layers": 1,
+      "dropout": 0.1,
+      "learning_rate": 0.003,
+      "weight_decay": 0.0,
+      "class_weight_alpha": 0.0
+    },
+    "mean_validation_macro_f1": 0.45819650524271116,
+    "runs": [
+      {
+        "model": "xlstm",
+        "seed": 17,
+        "best_epoch": 13,
+        "epochs_run": 18,
+        "validation_macro_f1": 0.46974277017160276,
+        "training_seconds_including_validation_and_checkpoints": 59.63035380000292,
+        "parameters": 474639,
+        "non_embedding_parameters": 110479,
+        "peak_cuda_allocated_mb": 215.818359375
+      },
+      {
+        "model": "xlstm",
+        "seed": 29,
+        "best_epoch": 5,
+        "epochs_run": 10,
+        "validation_macro_f1": 0.4466502403138195,
+        "training_seconds_including_validation_and_checkpoints": 33.03802949999954,
+        "parameters": 474639,
+        "non_embedding_parameters": 110479,
+        "peak_cuda_allocated_mb": 215.818359375
+      }
+    ]
+  },
+  {
+    "trial_id": 17,
+    "genes": {
+      "embedding_dim": 128,
+      "num_layers": 2,
+      "dropout": 0.3,
+      "learning_rate": 0.003,
+      "weight_decay": 0.001,
+      "class_weight_alpha": 0.5
+    },
+    "mean_validation_macro_f1": 0.47879189682864276,
+    "runs": [
+      {
+        "model": "xlstm",
+        "seed": 17,
+        "best_epoch": 8,
+        "epochs_run": 13,
+        "validation_macro_f1": 0.4774370509101396,
+        "training_seconds_including_validation_and_checkpoints": 72.93454530000236,
+        "parameters": 584087,
+        "non_embedding_parameters": 219927,
+        "peak_cuda_allocated_mb": 318.7216796875
+      },
+      {
+        "model": "xlstm",
+        "seed": 29,
+        "best_epoch": 8,
+        "epochs_run": 13,
+        "validation_macro_f1": 0.48014674274714597,
+        "training_seconds_including_validation_and_checkpoints": 72.68263469999874,
+        "parameters": 584087,
+        "non_embedding_parameters": 219927,
+        "peak_cuda_allocated_mb": 318.7216796875
+      }
+    ]
+  }
+]

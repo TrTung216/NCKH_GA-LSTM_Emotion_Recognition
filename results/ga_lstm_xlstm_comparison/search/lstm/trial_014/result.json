@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fitness": 0.46371197042636136,
+  "run": {
+    "model": "lstm",
+    "seed": 42,
+    "best_epoch": 4,
+    "epochs_run": 5,
+    "validation_macro_f1": 0.46371197042636136,
+    "training_seconds_including_validation_and_checkpoints": 8.854234700000234,
+    "parameters": 629511,
+    "non_embedding_parameters": 265351,
+    "peak_cuda_allocated_mb": 154.78271484375
+  },
+  "genes": {
+    "embedding_dim": 128,
+    "num_layers": 2,
+    "dropout": 0.1,
+    "learning_rate": 0.003,
+    "weight_decay": 0.001,
+    "class_weight_alpha": 0.5
+  },
+  "elapsed_seconds": 8.998648600001616
+}

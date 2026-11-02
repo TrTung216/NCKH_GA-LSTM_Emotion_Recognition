@@ -1,0 +1,10 @@
+xlstm seed=29 epoch=1 loss=1.5879 val_F1=0.3508 seconds=3.3
+xlstm seed=29 epoch=2 loss=1.1128 val_F1=0.4098 seconds=3.3
+xlstm seed=29 epoch=3 loss=0.7572 val_F1=0.4302 seconds=3.3
+xlstm seed=29 epoch=4 loss=0.4752 val_F1=0.4279 seconds=3.3
+xlstm seed=29 epoch=5 loss=0.3144 val_F1=0.4467 seconds=3.3
+xlstm seed=29 epoch=6 loss=0.2511 val_F1=0.4336 seconds=3.3
+xlstm seed=29 epoch=7 loss=0.1873 val_F1=0.4202 seconds=3.4
+xlstm seed=29 epoch=8 loss=0.1466 val_F1=0.4398 seconds=3.3
+xlstm seed=29 epoch=9 loss=0.1434 val_F1=0.4193 seconds=3.4
+xlstm seed=29 epoch=10 loss=0.1322 val_F1=0.4084 seconds=3.3

@@ -1,0 +1,30 @@
+{
+  "started_utc": "2026-10-28T11:33:40.039617+00:00",
+  "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+  "precision": "float32",
+  "deterministic_algorithms": "warn_only",
+  "determinism_limit": "CUDA cumsum in official mLSTM is not deterministic in PyTorch 2.5.1; seeded reruns need not be bitwise identical.",
+  "test_evaluated": true,
+  "completed_utc": "2026-10-28T11:54:26.406627+00:00",
+  "test_sha256": "4c7e7b3f8a24fcb5d64d166d726efac6a3cfc3c3b1bffd1dc4be95318ee6a42a",
+  "tokenization": {
+    "train": {
+      "n_samples": 5547,
+      "truncated": 8,
+      "unknown_tokens": 0,
+      "tokens_before_truncation": 96208
+    },
+    "validation": {
+      "n_samples": 686,
+      "truncated": 0,
+      "unknown_tokens": 1,
+      "tokens_before_truncation": 12207
+    },
+    "test": {
+      "n_samples": 693,
+      "truncated": 0,
+      "unknown_tokens": 3,
+      "tokens_before_truncation": 12008
+    }
+  }
+}

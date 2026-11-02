@@ -1,0 +1,13 @@
+﻿sample_id,source_row,source_index,text,label,label_id,split
+train_01030,1032,1847,bài này hay quá,Surprise,6,train
+validation_00592,594,1789,bài này hay quá,Surprise,6,validation
+train_04116,4118,1090,kinh vãi,Disgust,1,train
+train_04987,4989,147,kinh vãi,Fear,3,train
+train_01936,1938,180,nguy hiểm lắm,Fear,3,train
+train_04386,4388,260,nguy hiểm lắm,Fear,3,train
+test_00175,177,993,nhìn cái bản mặt bà ta mà ghét thay . tham vô độ . dân mình nhiều nhà dăn ba tỉ còn khó ....,Disgust,1,test
+test_00643,645,1204,nhìn cái bản mặt bà ta mà ghét thay . tham vô độ . dân mình nhiều nhà dăn ba tỉ còn khó ....,Disgust,1,test
+train_01128,1130,1023,per bây giờ thì không nói nhưng mà cảm giác phủ nhận vai trò bà thảo ngày xưa . vl không chị đọc thấy viết khập khiễng quá :))),Disgust,1,train
+train_01275,1277,747,per bây giờ thì không nói nhưng mà cảm giác phủ nhận vai trò bà thảo ngày xưa . vl không chị đọc thấy viết khập khiễng quá :))),Disgust,1,train
+train_00848,850,1686,đã năm 2000 . người ta cho mượn 200 tr rồi .. từ đó về sau nhà người ta có cần 25 tr / tháng hay không ???,Other,4,train
+train_05092,5094,1721,đã năm 2000 . người ta cho mượn 200 tr rồi .. từ đó về sau nhà người ta có cần 25 tr / tháng hay không ???,Other,4,train

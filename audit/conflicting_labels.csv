@@ -1,0 +1,3 @@
+﻿sample_id,source_row,source_index,text,label,label_id,split
+train_04116,4118,1090,kinh vãi,Disgust,1,train
+train_04987,4989,147,kinh vãi,Fear,3,train

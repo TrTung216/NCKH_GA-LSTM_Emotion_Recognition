@@ -1,0 +1,25 @@
+{
+  "variant": "train_no_validation_overlap",
+  "rule": "Remove training rows whose NFC/lowercase/collapsed-whitespace text occurs in validation; no relabeling or within-train deduplication.",
+  "normalization_applies_to_matching_only": true,
+  "train_rows_before": 5548,
+  "train_rows_after": 5547,
+  "removed_sample_ids": [
+    "train_01030"
+  ],
+  "label_counts_after": {
+    "Anger": 391,
+    "Disgust": 1071,
+    "Enjoyment": 1558,
+    "Fear": 318,
+    "Other": 1021,
+    "Sadness": 947,
+    "Surprise": 241
+  },
+  "validation_unchanged": true,
+  "test_read_by_this_script": false,
+  "source_sha256": {
+    "train.csv": "e5b2b02c65ea437bdfac04f8f8e69fcbeb181b8007b654d1b716ccd8a27b9bf0",
+    "validation.csv": "38c2868b26405a3f3a3d9936a4999c63c997a1c805e4cab3dc9b6adda3cd251f"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fitness": 0.431356519609648,
+  "run": {
+    "model": "xlstm",
+    "seed": 42,
+    "best_epoch": 5,
+    "epochs_run": 5,
+    "validation_macro_f1": 0.431356519609648,
+    "training_seconds_including_validation_and_checkpoints": 32.465116399998806,
+    "parameters": 242903,
+    "non_embedding_parameters": 60823,
+    "peak_cuda_allocated_mb": 243.90869140625
+  },
+  "genes": {
+    "embedding_dim": 64,
+    "num_layers": 2,
+    "dropout": 0.1,
+    "learning_rate": 0.003,
+    "weight_decay": 0.001,
+    "class_weight_alpha": 0.5
+  },
+  "elapsed_seconds": 32.609594199999265
+}

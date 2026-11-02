@@ -1,0 +1,39 @@
+{
+  "experiment": "fixed_preset_tfidf_word_char_linear_svc_validation_only",
+  "train_rows": 5547,
+  "validation_rows": 686,
+  "model_training_seed": 42,
+  "tuned_on_validation": false,
+  "test_predictions_generated": false,
+  "fit_seconds_on_this_cpu": 1.1449867369999538,
+  "predict_seconds_on_this_cpu": 0.06528751700000157,
+  "preprocessing": "NFC, vectorizer lowercasing; preserve diacritics; no stopword list; char ngrams retain punctuation.",
+  "tfidf_word_ngrams": [
+    1,
+    2
+  ],
+  "tfidf_character_ngrams": [
+    3,
+    5
+  ],
+  "tfidf_min_df": 2,
+  "tfidf_max_features_per_branch": 50000,
+  "tfidf_sublinear_tf": true,
+  "classifier_C": 1.0,
+  "classifier_class_weight": "balanced",
+  "classifier_dual": true,
+  "classifier_max_iter": 10000,
+  "classifier_tol": 0.0001,
+  "fitted_feature_counts": {
+    "word": 11244,
+    "char": 50000
+  },
+  "classifier_iterations": 86,
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "scikit_learn": "1.8.0",
+  "input_sha256": {
+    "train_no_validation_overlap.csv": "fb95b6dc078202a6c5b4b27fcc2b749642642830d748319cff3d5dd3d2eb8961",
+    "validation.csv": "38c2868b26405a3f3a3d9936a4999c63c997a1c805e4cab3dc9b6adda3cd251f"
+  }
+}

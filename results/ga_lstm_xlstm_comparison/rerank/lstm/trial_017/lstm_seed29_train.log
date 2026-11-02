@@ -1,0 +1,10 @@
+lstm seed=29 epoch=1 loss=1.5658 val_F1=0.3958 seconds=1.6
+lstm seed=29 epoch=2 loss=1.1660 val_F1=0.4361 seconds=1.7
+lstm seed=29 epoch=3 loss=0.8961 val_F1=0.4771 seconds=1.7
+lstm seed=29 epoch=4 loss=0.6565 val_F1=0.4700 seconds=1.7
+lstm seed=29 epoch=5 loss=0.4555 val_F1=0.4921 seconds=1.6
+lstm seed=29 epoch=6 loss=0.2867 val_F1=0.4823 seconds=1.6
+lstm seed=29 epoch=7 loss=0.1976 val_F1=0.4778 seconds=1.6
+lstm seed=29 epoch=8 loss=0.1352 val_F1=0.4582 seconds=1.6
+lstm seed=29 epoch=9 loss=0.1099 val_F1=0.4874 seconds=1.5
+lstm seed=29 epoch=10 loss=0.0805 val_F1=0.4566 seconds=1.5

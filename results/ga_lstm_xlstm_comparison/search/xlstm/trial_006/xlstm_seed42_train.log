@@ -1,0 +1,5 @@
+xlstm seed=42 epoch=1 loss=1.7380 val_F1=0.3806 seconds=5.2
+xlstm seed=42 epoch=2 loss=1.3471 val_F1=0.4033 seconds=5.3
+xlstm seed=42 epoch=3 loss=1.1049 val_F1=0.4248 seconds=5.2
+xlstm seed=42 epoch=4 loss=0.8881 val_F1=0.4102 seconds=5.3
+xlstm seed=42 epoch=5 loss=0.7364 val_F1=0.4032 seconds=5.2

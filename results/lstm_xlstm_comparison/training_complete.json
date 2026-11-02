@@ -1,0 +1,71 @@
+{
+  "completed_utc": "2026-10-28T11:26:34.951405+00:00",
+  "runs": [
+    {
+      "model": "lstm",
+      "seed": 42,
+      "best_epoch": 11,
+      "epochs_run": 16,
+      "validation_macro_f1": 0.44679378048625906,
+      "training_seconds_including_validation_and_checkpoints": 32.812126900000294,
+      "parameters": 249223,
+      "non_embedding_parameters": 67143,
+      "peak_cuda_allocated_mb": 109.93994140625
+    },
+    {
+      "model": "xlstm",
+      "seed": 42,
+      "best_epoch": 9,
+      "epochs_run": 14,
+      "validation_macro_f1": 0.44489124978226824,
+      "training_seconds_including_validation_and_checkpoints": 113.47482399999717,
+      "parameters": 242903,
+      "non_embedding_parameters": 60823,
+      "peak_cuda_allocated_mb": 243.90869140625
+    },
+    {
+      "model": "lstm",
+      "seed": 123,
+      "best_epoch": 4,
+      "epochs_run": 9,
+      "validation_macro_f1": 0.4124645221661437,
+      "training_seconds_including_validation_and_checkpoints": 20.855553299999883,
+      "parameters": 249223,
+      "non_embedding_parameters": 67143,
+      "peak_cuda_allocated_mb": 108.9716796875
+    },
+    {
+      "model": "xlstm",
+      "seed": 123,
+      "best_epoch": 9,
+      "epochs_run": 14,
+      "validation_macro_f1": 0.43285566850824964,
+      "training_seconds_including_validation_and_checkpoints": 88.98536370000147,
+      "parameters": 242903,
+      "non_embedding_parameters": 60823,
+      "peak_cuda_allocated_mb": 243.90869140625
+    },
+    {
+      "model": "lstm",
+      "seed": 2026,
+      "best_epoch": 13,
+      "epochs_run": 18,
+      "validation_macro_f1": 0.4376256113528792,
+      "training_seconds_including_validation_and_checkpoints": 27.799084800000855,
+      "parameters": 249223,
+      "non_embedding_parameters": 67143,
+      "peak_cuda_allocated_mb": 109.93994140625
+    },
+    {
+      "model": "xlstm",
+      "seed": 2026,
+      "best_epoch": 18,
+      "epochs_run": 20,
+      "validation_macro_f1": 0.45657887091785515,
+      "training_seconds_including_validation_and_checkpoints": 105.25005830000009,
+      "parameters": 242903,
+      "non_embedding_parameters": 60823,
+      "peak_cuda_allocated_mb": 243.90869140625
+    }
+  ]
+}

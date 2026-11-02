@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "independently_rescored": [
+    "lstm_seed42/validation",
+    "lstm_seed42/test",
+    "xlstm_seed42/validation",
+    "xlstm_seed42/test",
+    "lstm_seed123/validation",
+    "lstm_seed123/test",
+    "xlstm_seed123/validation",
+    "xlstm_seed123/test",
+    "lstm_seed2026/validation",
+    "lstm_seed2026/test",
+    "xlstm_seed2026/validation",
+    "xlstm_seed2026/test"
+  ],
+  "data_hashes_verified": true,
+  "tokenizer_and_training_script_hashes_verified": true,
+  "best_epoch_selection_verified": true,
+  "all_configured_models_and_seeds_present": true
+}

@@ -1,0 +1,11 @@
+{
+  "model": "xlstm",
+  "seed": 42,
+  "best_epoch": 3,
+  "epochs_run": 5,
+  "validation_macro_f1": 0.42483339942549125,
+  "training_seconds_including_validation_and_checkpoints": 26.173404799999844,
+  "parameters": 242903,
+  "non_embedding_parameters": 60823,
+  "peak_cuda_allocated_mb": 243.90869140625
+}

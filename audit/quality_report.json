@@ -1,0 +1,66 @@
+{
+  "splits": {
+    "train": {
+      "rows": 5548,
+      "missing_text_or_label": 0,
+      "duplicate_text_extra_rows": 4,
+      "unique_texts": 5544,
+      "source_index_is_unique": false,
+      "whitespace_length": {
+        "median": 12.0,
+        "p95": 33.0,
+        "max": 164
+      }
+    },
+    "validation": {
+      "rows": 686,
+      "missing_text_or_label": 0,
+      "duplicate_text_extra_rows": 0,
+      "unique_texts": 686,
+      "source_index_is_unique": false,
+      "whitespace_length": {
+        "median": 12.0,
+        "p95": 31.0,
+        "max": 80
+      }
+    },
+    "test": {
+      "rows": 693,
+      "missing_text_or_label": 0,
+      "duplicate_text_extra_rows": 1,
+      "unique_texts": 692,
+      "source_index_is_unique": false,
+      "whitespace_length": {
+        "median": 11.0,
+        "p95": 31.0,
+        "max": 64
+      }
+    }
+  },
+  "cross_split_overlap": [
+    {
+      "split_a": "train",
+      "split_b": "validation",
+      "exact_unique_text_overlap": 1,
+      "normalized_unique_text_overlap": 1
+    },
+    {
+      "split_a": "train",
+      "split_b": "test",
+      "exact_unique_text_overlap": 0,
+      "normalized_unique_text_overlap": 0
+    },
+    {
+      "split_a": "validation",
+      "split_b": "test",
+      "exact_unique_text_overlap": 0,
+      "normalized_unique_text_overlap": 0
+    }
+  ],
+  "total_rows": 6927,
+  "unique_texts": 6921,
+  "texts_with_conflicting_labels": 1,
+  "normalization_for_audit_only": "NFC + lowercase + collapse whitespace",
+  "original_splits_preserved": true,
+  "near_duplicate_detection_performed": false
+}

@@ -1,0 +1,638 @@
+{
+  "trials": [
+    {
+      "status": "ok",
+      "fitness": 0.3976592744888833,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 5,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.3976592744888833,
+        "training_seconds_including_validation_and_checkpoints": 30.57429029999912,
+        "parameters": 242903,
+        "non_embedding_parameters": 60823,
+        "peak_cuda_allocated_mb": 243.90869140625
+      },
+      "genes": {
+        "embedding_dim": 64,
+        "num_layers": 2,
+        "dropout": 0.3,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "class_weight_alpha": 0.5
+      },
+      "elapsed_seconds": 30.7106234999992,
+      "trial_id": 0,
+      "generation": 0,
+      "parents": [],
+      "crossover_applied": false,
+      "mutated_genes": []
+    },
+    {
+      "status": "ok",
+      "fitness": 0.3361162927888795,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 5,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.3361162927888795,
+        "training_seconds_including_validation_and_checkpoints": 16.622925300001953,
+        "parameters": 474639,
+        "non_embedding_parameters": 110479,
+        "peak_cuda_allocated_mb": 215.818359375
+      },
+      "genes": {
+        "embedding_dim": 128,
+        "num_layers": 1,
+        "dropout": 0.3,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0,
+        "class_weight_alpha": 0.5
+      },
+      "elapsed_seconds": 16.76347800000076,
+      "trial_id": 1,
+      "generation": 0,
+      "parents": [],
+      "crossover_applied": false,
+      "mutated_genes": []
+    },
+    {
+      "status": "ok",
+      "fitness": 0.11445195361491348,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 1,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.11445195361491348,
+        "training_seconds_including_validation_and_checkpoints": 16.43500589999894,
+        "parameters": 212751,
+        "non_embedding_parameters": 30671,
+        "peak_cuda_allocated_mb": 176.52734375
+      },
+      "genes": {
+        "embedding_dim": 64,
+        "num_layers": 1,
+        "dropout": 0.5,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.001,
+        "class_weight_alpha": 0.0
+      },
+      "elapsed_seconds": 16.566292600000452,
+      "trial_id": 2,
+      "generation": 0,
+      "parents": [],
+      "crossover_applied": false,
+      "mutated_genes": []
+    },
+    {
+      "status": "ok",
+      "fitness": 0.2230614277962073,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 5,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.2230614277962073,
+        "training_seconds_including_validation_and_checkpoints": 26.26263040000049,
+        "parameters": 242903,
+        "non_embedding_parameters": 60823,
+        "peak_cuda_allocated_mb": 243.90869140625
+      },
+      "genes": {
+        "embedding_dim": 64,
+        "num_layers": 2,
+        "dropout": 0.3,
+        "learning_rate": 0.0003,
+        "weight_decay": 0.0001,
+        "class_weight_alpha": 1.0
+      },
+      "elapsed_seconds": 26.396877800001675,
+      "trial_id": 3,
+      "generation": 0,
+      "parents": [],
+      "crossover_applied": false,
+      "mutated_genes": []
+    },
+    {
+      "status": "ok",
+      "fitness": 0.41188897255525586,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 4,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.41188897255525586,
+        "training_seconds_including_validation_and_checkpoints": 16.121491000001697,
+        "parameters": 212751,
+        "non_embedding_parameters": 30671,
+        "peak_cuda_allocated_mb": 176.52734375
+      },
+      "genes": {
+        "embedding_dim": 64,
+        "num_layers": 1,
+        "dropout": 0.3,
+        "learning_rate": 0.003,
+        "weight_decay": 0.0,
+        "class_weight_alpha": 0.5
+      },
+      "elapsed_seconds": 16.25196969999888,
+      "trial_id": 4,
+      "generation": 0,
+      "parents": [],
+      "crossover_applied": false,
+      "mutated_genes": []
+    },
+    {
+      "status": "ok",
+      "fitness": 0.3455524577148073,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 5,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.3455524577148073,
+        "training_seconds_including_validation_and_checkpoints": 15.974282700000913,
+        "parameters": 212751,
+        "non_embedding_parameters": 30671,
+        "peak_cuda_allocated_mb": 176.52734375
+      },
+      "genes": {
+        "embedding_dim": 64,
+        "num_layers": 1,
+        "dropout": 0.3,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "class_weight_alpha": 0.0
+      },
+      "elapsed_seconds": 16.1014353999999,
+      "trial_id": 5,
+      "generation": 0,
+      "parents": [],
+      "crossover_applied": false,
+      "mutated_genes": []
+    },
+    {
+      "status": "ok",
+      "fitness": 0.42483339942549125,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 3,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.42483339942549125,
+        "training_seconds_including_validation_and_checkpoints": 26.173404799999844,
+        "parameters": 242903,
+        "non_embedding_parameters": 60823,
+        "peak_cuda_allocated_mb": 243.90869140625
+      },
+      "genes": {
+        "embedding_dim": 64,
+        "num_layers": 2,
+        "dropout": 0.1,
+        "learning_rate": 0.003,
+        "weight_decay": 0.0,
+        "class_weight_alpha": 0.5
+      },
+      "elapsed_seconds": 26.307958000001236,
+      "trial_id": 6,
+      "generation": 1,
+      "parents": [
+        0,
+        4
+      ],
+      "crossover_applied": true,
+      "mutated_genes": [
+        "num_layers",
+        "dropout"
+      ]
+    },
+    {
+      "status": "ok",
+      "fitness": 0.4078807536199007,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 4,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.4078807536199007,
+        "training_seconds_including_validation_and_checkpoints": 15.529629900000145,
+        "parameters": 212751,
+        "non_embedding_parameters": 30671,
+        "peak_cuda_allocated_mb": 176.52734375
+      },
+      "genes": {
+        "embedding_dim": 64,
+        "num_layers": 1,
+        "dropout": 0.1,
+        "learning_rate": 0.001,
+        "weight_decay": 0.0001,
+        "class_weight_alpha": 0.0
+      },
+      "elapsed_seconds": 15.658893400002853,
+      "trial_id": 7,
+      "generation": 1,
+      "parents": [
+        0,
+        5
+      ],
+      "crossover_applied": true,
+      "mutated_genes": [
+        "dropout"
+      ]
+    },
+    {
+      "status": "ok",
+      "fitness": 0.41188897255525586,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 4,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.41188897255525586,
+        "training_seconds_including_validation_and_checkpoints": 15.487103799998295,
+        "parameters": 212751,
+        "non_embedding_parameters": 30671,
+        "peak_cuda_allocated_mb": 176.52734375
+      },
+      "genes": {
+        "embedding_dim": 64,
+        "num_layers": 1,
+        "dropout": 0.3,
+        "learning_rate": 0.003,
+        "weight_decay": 0.0001,
+        "class_weight_alpha": 0.5
+      },
+      "elapsed_seconds": 15.637895600000775,
+      "trial_id": 8,
+      "generation": 1,
+      "parents": [
+        4,
+        0
+      ],
+      "crossover_applied": true,
+      "mutated_genes": [
+        "learning_rate"
+      ]
+    },
+    {
+      "status": "ok",
+      "fitness": 0.42742036959308133,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 5,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.42742036959308133,
+        "training_seconds_including_validation_and_checkpoints": 27.131241099999897,
+        "parameters": 242903,
+        "non_embedding_parameters": 60823,
+        "peak_cuda_allocated_mb": 243.90869140625
+      },
+      "genes": {
+        "embedding_dim": 64,
+        "num_layers": 2,
+        "dropout": 0.3,
+        "learning_rate": 0.003,
+        "weight_decay": 0.001,
+        "class_weight_alpha": 0.5
+      },
+      "elapsed_seconds": 27.27583340000274,
+      "trial_id": 9,
+      "generation": 1,
+      "parents": [
+        4,
+        0
+      ],
+      "crossover_applied": true,
+      "mutated_genes": [
+        "weight_decay"
+      ]
+    },
+    {
+      "status": "ok",
+      "fitness": 0.4418677049414374,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 3,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.4418677049414374,
+        "training_seconds_including_validation_and_checkpoints": 33.67796069999895,
+        "parameters": 584087,
+        "non_embedding_parameters": 219927,
+        "peak_cuda_allocated_mb": 318.7216796875
+      },
+      "genes": {
+        "embedding_dim": 128,
+        "num_layers": 2,
+        "dropout": 0.1,
+        "learning_rate": 0.003,
+        "weight_decay": 0.0,
+        "class_weight_alpha": 0.0
+      },
+      "elapsed_seconds": 33.83635030000005,
+      "trial_id": 10,
+      "generation": 2,
+      "parents": [
+        6,
+        4
+      ],
+      "crossover_applied": false,
+      "mutated_genes": [
+        "embedding_dim",
+        "class_weight_alpha"
+      ]
+    },
+    {
+      "status": "ok",
+      "fitness": 0.4098485584755656,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 5,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.4098485584755656,
+        "training_seconds_including_validation_and_checkpoints": 32.57924020000064,
+        "parameters": 242903,
+        "non_embedding_parameters": 60823,
+        "peak_cuda_allocated_mb": 243.90869140625
+      },
+      "genes": {
+        "embedding_dim": 64,
+        "num_layers": 2,
+        "dropout": 0.3,
+        "learning_rate": 0.003,
+        "weight_decay": 0.0001,
+        "class_weight_alpha": 0.5
+      },
+      "elapsed_seconds": 32.725011300000915,
+      "trial_id": 11,
+      "generation": 2,
+      "parents": [
+        9,
+        6
+      ],
+      "crossover_applied": true,
+      "mutated_genes": [
+        "weight_decay"
+      ]
+    },
+    {
+      "status": "ok",
+      "fitness": 0.41989858646503453,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 5,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.41989858646503453,
+        "training_seconds_including_validation_and_checkpoints": 32.554657900000166,
+        "parameters": 242903,
+        "non_embedding_parameters": 60823,
+        "peak_cuda_allocated_mb": 243.90869140625
+      },
+      "genes": {
+        "embedding_dim": 64,
+        "num_layers": 2,
+        "dropout": 0.3,
+        "learning_rate": 0.003,
+        "weight_decay": 0.0,
+        "class_weight_alpha": 0.5
+      },
+      "elapsed_seconds": 32.702771200001735,
+      "trial_id": 12,
+      "generation": 2,
+      "parents": [
+        6,
+        6
+      ],
+      "crossover_applied": true,
+      "mutated_genes": [
+        "dropout"
+      ]
+    },
+    {
+      "status": "ok",
+      "fitness": 0.431356519609648,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 5,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.431356519609648,
+        "training_seconds_including_validation_and_checkpoints": 32.465116399998806,
+        "parameters": 242903,
+        "non_embedding_parameters": 60823,
+        "peak_cuda_allocated_mb": 243.90869140625
+      },
+      "genes": {
+        "embedding_dim": 64,
+        "num_layers": 2,
+        "dropout": 0.1,
+        "learning_rate": 0.003,
+        "weight_decay": 0.001,
+        "class_weight_alpha": 0.5
+      },
+      "elapsed_seconds": 32.609594199999265,
+      "trial_id": 13,
+      "generation": 2,
+      "parents": [
+        6,
+        9
+      ],
+      "crossover_applied": true,
+      "mutated_genes": []
+    },
+    {
+      "status": "ok",
+      "fitness": 0.4591238354780684,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 2,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.4591238354780684,
+        "training_seconds_including_validation_and_checkpoints": 19.560173199999554,
+        "parameters": 474639,
+        "non_embedding_parameters": 110479,
+        "peak_cuda_allocated_mb": 215.818359375
+      },
+      "genes": {
+        "embedding_dim": 128,
+        "num_layers": 1,
+        "dropout": 0.1,
+        "learning_rate": 0.003,
+        "weight_decay": 0.0,
+        "class_weight_alpha": 0.0
+      },
+      "elapsed_seconds": 19.713408300001902,
+      "trial_id": 14,
+      "generation": 3,
+      "parents": [
+        10,
+        10
+      ],
+      "crossover_applied": true,
+      "mutated_genes": [
+        "num_layers"
+      ]
+    },
+    {
+      "status": "ok",
+      "fitness": 0.4203350910422639,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 4,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.4203350910422639,
+        "training_seconds_including_validation_and_checkpoints": 19.531106800000998,
+        "parameters": 212751,
+        "non_embedding_parameters": 30671,
+        "peak_cuda_allocated_mb": 176.52734375
+      },
+      "genes": {
+        "embedding_dim": 64,
+        "num_layers": 1,
+        "dropout": 0.1,
+        "learning_rate": 0.003,
+        "weight_decay": 0.001,
+        "class_weight_alpha": 0.0
+      },
+      "elapsed_seconds": 19.797894200000883,
+      "trial_id": 15,
+      "generation": 3,
+      "parents": [
+        13,
+        10
+      ],
+      "crossover_applied": true,
+      "mutated_genes": [
+        "num_layers",
+        "class_weight_alpha"
+      ]
+    },
+    {
+      "status": "ok",
+      "fitness": 0.44379187589097047,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 5,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.44379187589097047,
+        "training_seconds_including_validation_and_checkpoints": 33.925339800000074,
+        "parameters": 584087,
+        "non_embedding_parameters": 219927,
+        "peak_cuda_allocated_mb": 318.7216796875
+      },
+      "genes": {
+        "embedding_dim": 128,
+        "num_layers": 2,
+        "dropout": 0.1,
+        "learning_rate": 0.003,
+        "weight_decay": 0.0001,
+        "class_weight_alpha": 0.0
+      },
+      "elapsed_seconds": 34.085061900001165,
+      "trial_id": 16,
+      "generation": 3,
+      "parents": [
+        10,
+        13
+      ],
+      "crossover_applied": false,
+      "mutated_genes": [
+        "weight_decay"
+      ]
+    },
+    {
+      "status": "ok",
+      "fitness": 0.4504903093715879,
+      "run": {
+        "model": "xlstm",
+        "seed": 42,
+        "best_epoch": 5,
+        "epochs_run": 5,
+        "validation_macro_f1": 0.4504903093715879,
+        "training_seconds_including_validation_and_checkpoints": 33.34134140000242,
+        "parameters": 584087,
+        "non_embedding_parameters": 219927,
+        "peak_cuda_allocated_mb": 318.7216796875
+      },
+      "genes": {
+        "embedding_dim": 128,
+        "num_layers": 2,
+        "dropout": 0.3,
+        "learning_rate": 0.003,
+        "weight_decay": 0.001,
+        "class_weight_alpha": 0.5
+      },
+      "elapsed_seconds": 33.48623369999768,
+      "trial_id": 17,
+      "generation": 3,
+      "parents": [
+        9,
+        9
+      ],
+      "crossover_applied": false,
+      "mutated_genes": [
+        "embedding_dim"
+      ]
+    }
+  ],
+  "generations": [
+    {
+      "generation": 0,
+      "population_trial_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "best_trial_id": 4
+    },
+    {
+      "generation": 1,
+      "population_trial_ids": [
+        4,
+        0,
+        6,
+        7,
+        8,
+        9
+      ],
+      "best_trial_id": 9
+    },
+    {
+      "generation": 2,
+      "population_trial_ids": [
+        9,
+        6,
+        10,
+        11,
+        12,
+        13
+      ],
+      "best_trial_id": 10
+    },
+    {
+      "generation": 3,
+      "population_trial_ids": [
+        10,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "best_trial_id": 14
+    }
+  ],
+  "duplicate_proposals_rejected": 7
+}

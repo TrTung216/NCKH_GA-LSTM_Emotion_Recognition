@@ -1,0 +1,138 @@
+{
+  "n_samples": 686,
+  "metric_scale": "0 to 1",
+  "accuracy": 0.4446064139941691,
+  "macro_f1": 0.4124645221661437,
+  "weighted_f1": 0.4447165865830947,
+  "per_class": {
+    "Anger": {
+      "precision": 0.5,
+      "recall": 0.20408163265306123,
+      "f1-score": 0.2898550724637681,
+      "support": 49.0
+    },
+    "Disgust": {
+      "precision": 0.3883495145631068,
+      "recall": 0.5925925925925926,
+      "f1-score": 0.46920821114369504,
+      "support": 135.0
+    },
+    "Enjoyment": {
+      "precision": 0.625,
+      "recall": 0.4672897196261682,
+      "f1-score": 0.5347593582887701,
+      "support": 214.0
+    },
+    "Fear": {
+      "precision": 0.56,
+      "recall": 0.45161290322580644,
+      "f1-score": 0.5,
+      "support": 31.0
+    },
+    "Other": {
+      "precision": 0.34911242603550297,
+      "recall": 0.41843971631205673,
+      "f1-score": 0.38064516129032255,
+      "support": 141.0
+    },
+    "Sadness": {
+      "precision": 0.4230769230769231,
+      "recall": 0.38372093023255816,
+      "f1-score": 0.4024390243902439,
+      "support": 86.0
+    },
+    "Surprise": {
+      "precision": 0.32142857142857145,
+      "recall": 0.3,
+      "f1-score": 0.3103448275862069,
+      "support": 30.0
+    },
+    "accuracy": 0.4446064139941691,
+    "macro avg": {
+      "precision": 0.45242391930058634,
+      "recall": 0.4025339278060347,
+      "f1-score": 0.4124645221661437,
+      "support": 686.0
+    },
+    "weighted avg": {
+      "precision": 0.471267505924924,
+      "recall": 0.4446064139941691,
+      "f1-score": 0.4447165865830947,
+      "support": 686.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "Anger",
+    "Disgust",
+    "Enjoyment",
+    "Fear",
+    "Other",
+    "Sadness",
+    "Surprise"
+  ],
+  "confusion_matrix_rows_true_columns_predicted": [
+    [
+      10,
+      32,
+      0,
+      1,
+      3,
+      2,
+      1
+    ],
+    [
+      2,
+      80,
+      13,
+      2,
+      26,
+      7,
+      5
+    ],
+    [
+      1,
+      27,
+      100,
+      2,
+      54,
+      23,
+      7
+    ],
+    [
+      3,
+      5,
+      4,
+      14,
+      4,
+      1,
+      0
+    ],
+    [
+      3,
+      40,
+      22,
+      4,
+      59,
+      12,
+      1
+    ],
+    [
+      1,
+      15,
+      14,
+      1,
+      17,
+      33,
+      5
+    ],
+    [
+      0,
+      7,
+      7,
+      1,
+      6,
+      0,
+      9
+    ]
+  ]
+}

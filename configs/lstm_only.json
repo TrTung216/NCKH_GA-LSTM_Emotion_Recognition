@@ -1,0 +1,28 @@
+{
+  "train": "data_variants/train_no_validation_overlap.csv",
+  "validation": "data/validation.csv",
+  "test": "data/test.csv",
+  "models": [
+    "lstm"
+  ],
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "vocab_size": 4000,
+  "max_length": 128,
+  "embedding_dim": 64,
+  "num_layers": 2,
+  "dropout": 0.3,
+  "batch_size": 32,
+  "max_epochs": 20,
+  "patience": 5,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "class_weight_alpha": 0.5,
+  "gradient_clip": 1.0,
+  "num_threads": 4,
+  "xlstm_source_commit": "ab22eadbd245f293dd8dec38ed29963d73758a12",
+  "protocol": "Fixed configuration, no hyperparameter search. Best validation macro-F1 checkpoint per seed; evaluate all seeds on test only after every training run finishes."
+}

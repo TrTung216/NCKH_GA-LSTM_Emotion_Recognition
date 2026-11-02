@@ -1,0 +1,11 @@
+{
+  "model": "lstm",
+  "seed": 17,
+  "best_epoch": 9,
+  "epochs_run": 14,
+  "validation_macro_f1": 0.48023417995994416,
+  "training_seconds_including_validation_and_checkpoints": 22.65388890000031,
+  "parameters": 497415,
+  "non_embedding_parameters": 133255,
+  "peak_cuda_allocated_mb": 145.6552734375
+}

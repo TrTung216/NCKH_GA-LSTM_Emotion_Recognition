@@ -1,0 +1,70 @@
+{
+  "baseline_directory": "results/lstm_xlstm_comparison",
+  "models": [
+    "xlstm"
+  ],
+  "search_space": {
+    "embedding_dim": [
+      64,
+      128
+    ],
+    "num_layers": [
+      1,
+      2
+    ],
+    "dropout": [
+      0.1,
+      0.3,
+      0.5
+    ],
+    "learning_rate": [
+      0.0003,
+      0.001,
+      0.003
+    ],
+    "weight_decay": [
+      0.0,
+      0.0001,
+      0.001
+    ],
+    "class_weight_alpha": [
+      0.0,
+      0.5,
+      1.0
+    ]
+  },
+  "ga": {
+    "population_size": 6,
+    "offspring_generations": 3,
+    "elites": 2,
+    "tournament_size": 3,
+    "crossover_probability": 0.8,
+    "mutation_probability_per_gene": 0.16666666666666666,
+    "search_seed": 71,
+    "training_seed": 42,
+    "proxy_epochs": 5,
+    "unique_trial_budget": 18,
+    "include_fixed_baseline_in_initial_population": true
+  },
+  "rerank": {
+    "top_k": 2,
+    "seeds": [
+      17,
+      29
+    ],
+    "max_epochs": 20,
+    "patience": 5
+  },
+  "final": {
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "max_epochs": 20,
+    "patience": 5
+  },
+  "selection": "Top two by best validation Macro-F1 in the five-epoch proxy; select by mean best validation Macro-F1 across reranking seeds. Exact ties use earlier trial ID. Final checkpoints selected on validation only.",
+  "protocol": "GA optimizes hyperparameters; AdamW trains weights. Same search space, initial population, trial count, proxy/rerank/final epoch budgets for both architectures. No test access until both selected configurations and all final models are saved.",
+  "scope": "Exploratory extension: test was already reported in the previous fixed-configuration experiment. One GA search seed per architecture; three final training seeds do not measure search variability. No claim that GA outperforms random search."
+}

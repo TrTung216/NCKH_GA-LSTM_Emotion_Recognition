@@ -1,0 +1,7 @@
+{
+  "archive_sha256": "5dcafcd885f13ebde13261ca54af53d6bafbfc2646f0abd5ac4b3f23e22a92c2",
+  "changed_files": [
+    "xlstm-ab22eadbd245f293dd8dec38ed29963d73758a12/xlstm/blocks/slstm/cell.py"
+  ],
+  "all_other_archived_files_unchanged": true
+}

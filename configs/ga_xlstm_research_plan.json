@@ -1,0 +1,148 @@
+{
+  "status": "Research specification. This JSON is not a runnable training program.",
+  "dataset": {
+    "train": "data_variants/train_no_validation_overlap.csv",
+    "validation": "data/validation.csv",
+    "test_for_locked_final_evaluation": "data/test.csv",
+    "task": "single_label_7_class",
+    "label_mapping": "label_mapping.json"
+  },
+  "fixed_training": {
+    "backbone": "NX-AI/xlstm xLSTMBlockStack (NeurIPS 2024 architecture)",
+    "tokenizer": "Train-only SentencePiece unigram; vocab_size=4000; character_coverage=1.0; preserve case, punctuation, emoji, Vietnamese accents",
+    "maximum_tokens_including_eos": 128,
+    "num_heads": 4,
+    "conv1d_kernel_size": 4,
+    "qkv_proj_blocksize": 4,
+    "pooling": "masked_mean",
+    "padding": "right",
+    "optimizer": "AdamW",
+    "scheduler": "constant learning rate within each trial",
+    "micro_batch_size": 16,
+    "gradient_accumulation_steps": 2,
+    "effective_batch_size": 32,
+    "gradient_clip_norm": 1.0,
+    "class_weight_formula": "w_c=(N/(7*n_c))**alpha, normalized to mean 1; counts from active training split only",
+    "loss": "weighted_cross_entropy_on_logits",
+    "precision": "FP32 reference; select a supported mixed precision mode only after numerical validation, then hold fixed for all compared searches",
+    "xlstm_source_commit": "ab22eadbd245f293dd8dec38ed29963d73758a12",
+    "tokenizer_normalization": "Apply NFC externally, SentencePiece normalization_rule_name=identity; train tokenizer on active train split only",
+    "weight_decay_exclusions": [
+      "bias",
+      "normalization_parameters"
+    ]
+  },
+  "stage1_search_space": {
+    "embedding_dim": [
+      64,
+      128,
+      192
+    ],
+    "block_layout": [
+      "m",
+      "mm",
+      "mmm"
+    ],
+    "dropout_stack_and_head": [
+      0.1,
+      0.3,
+      0.5
+    ],
+    "log10_learning_rate": {
+      "min": -4.0,
+      "max": -2.5,
+      "round_decimals": 4
+    },
+    "weight_decay": [
+      0.0,
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "class_weight_alpha": [
+      0.0,
+      0.5,
+      1.0
+    ]
+  },
+  "optional_stage2": {
+    "requires": "sLSTM forward/backward and memory test on target device",
+    "expanded_block_layout": [
+      "m",
+      "s",
+      "mm",
+      "ms",
+      "sm",
+      "ss",
+      "mmm",
+      "msm",
+      "sms",
+      "sss"
+    ],
+    "num_blocks": "len(block_layout)",
+    "slstm_at": "zero-based indices whose character is s",
+    "comparison": "Rerun GA and random search in the same expanded space; report separately from stage1"
+  },
+  "ga": {
+    "population_size": 8,
+    "initial_population_evaluations": 8,
+    "offspring_generations": 4,
+    "elites_per_generation": 2,
+    "new_offspring_per_generation": 6,
+    "unique_trial_budget_including_failed_trials": 32,
+    "selection": "tournament of 3",
+    "uniform_crossover_probability": 0.8,
+    "per_gene_mutation_probability": 0.1666666667,
+    "categorical_mutation": "resample from all other allowed values",
+    "log10_lr_mutation": "add Gaussian sigma=0.3; clip to range; round to 4 decimals",
+    "training_seed_for_all_stage1_trials": 42,
+    "pilot_search_seed": 42,
+    "confirmatory_search_seeds": [
+      11,
+      23,
+      37
+    ],
+    "proxy_epochs": 5,
+    "fitness": "maximum validation Macro-F1 over the 5 proxy epochs, labels 0..6, zero_division=0",
+    "infeasible_fitness": "negative infinity for OOM or nonfinite loss",
+    "cache_key": "canonical configuration + data hashes + tokenizer hash + training seed + training budget + code version + precision/backend",
+    "duplicate_proposals": "use cache; resample until 6 novel trials are scheduled; report attempts separately"
+  },
+  "selection_after_search": {
+    "top_configurations": 3,
+    "reranking_training_seeds": [
+      17,
+      29,
+      43
+    ],
+    "max_epochs": 30,
+    "early_stopping_patience_epochs": 5,
+    "selection_rule": "highest mean validation Macro-F1 across reranking seeds; use lower cost only for exact ties",
+    "final_training_seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "test_rule": "After configuration, seeds and decision rules are locked, evaluate all five models and report all five; no test-driven tuning or best-seed selection"
+  },
+  "comparators": [
+    "fixed xLSTM",
+    "random search xLSTM",
+    "TPE xLSTM when budget permits"
+  ],
+  "fairness": {
+    "same_search_space_and_proxy_budget": true,
+    "same_reranking_budget": true,
+    "report_both_unique_trials_and_gpu_seconds": true,
+    "equal_trial_count_is_not_equal_gpu_cost": true,
+    "publication_extension": "Compare best-validation-F1 against cumulative GPU time at matched time checkpoints; independent repeats for search stochasticity"
+  },
+  "unexecuted": [
+    "SentencePiece training",
+    "xLSTM training",
+    "GA/random/TPE searches",
+    "final test evaluation"
+  ]
+}
